@@ -1,0 +1,32 @@
+{
+  "name": "Kaveri Restaurant",
+  "subtitle": "Authentic Flavors",
+  "logo": "",
+
+  "sections": [
+    { "key": "starters", "titleEn": "Starters", "titleHi": "स्टार्टर" },
+    { "key": "SoupVeg", "titleEn": "Veg Soup", "titleHi": "वेज सूप" },
+    { "key": "main", "titleEn": "Main Course", "titleHi": "मुख्य भोजन" },
+    { "key": "desserts", "titleEn": "Desserts", "titleHi": "मिठाई" }
+  ],
+
+  "items": [
+    {
+      "type": "starters",
+      "name": { "en": "Paneer Tikka", "hi": "पनीर टिक्का" },
+      "price": 250,
+      "image": "", 
+      "description" : "this is very good",
+      "about": { "en": "Grilled paneer with spices", "hi": "मसालों के साथ ग्रिल्ड पनीर" },
+      "ingredients": { "en": ["Paneer", "Spices"], "hi": ["पनीर", "मसाले"] }
+    },
+    {
+      "type": "SoupVeg",
+      "name": { "en": "Tomato Soup", "hi": "टमाटर सूप" },
+      "price": 120,
+      "image": "", 
+      "about": { "en": "Fresh tomato with herbs", "hi": "ताज़ा टमाटर और हर्ब्स" },
+      "ingredients": { "en": ["Tomato", "Herbs"], "hi": ["टमाटर", "जड़ी-बूटियाँ"] }
+    }
+  ]
+}

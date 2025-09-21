@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Landing Screen -->
+  <div id="landing-screen" class="landing-screen">
+    <img id="landingLogo" src="" alt="Restaurant Logo" />
+    <h1 id="landingTitle">Restaurant</h1>
+    <button id="openMenuBtn" class="btn-primary">Open Menu</button>
+  </div>
+
+  <!-- Menu Book -->
+  <div class="menu-book" id="menu-book" style="display:none;">
+    <header>
+      <img id="restaurantLogo" src="" alt="Restaurant Logo" class="header-logo" />
+      <h1 id="title">Welcome</h1>
+      <p class="subtitle" id="subtitle">A Gourmet Experience</p>
+      <button id="langToggle">हिंदी</button>
+    </header>
+    <main id="menu-sections"></main>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <span class="close" title="Close">&times;</span>
+      <img id="modal-img" src="" alt="Dish Image" />
+      <h2 id="modal-title"></h2>
+      <ul id="modal-ingredients"></ul>
+      <h4 id="modal-price"></h4>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 ISKY Enterprises. All Rights Reserved.</p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:iskyenterprises25@gmail.com">iskyenterprises25@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918434024214">+91 8434024214</a>, <a href="tel:+917488229983">+91 7488229983</a></p>
+    </div>
+    <p class="credit">Menu design &amp; development by ISKY Enterprises</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

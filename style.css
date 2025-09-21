@@ -1,0 +1,311 @@
+/* --- Original theme & layout (kept mostly as you had) --- */
+body {
+  background: repeating-linear-gradient(135deg, #f7ecd9 0 30px, #f2e1c0 30px 60px);
+  min-height: 100vh;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-book {
+  max-width: 430px;
+  margin: 42px auto;
+  background: #fffbe9;
+  border: 5px solid #ceb290;
+  border-radius: 24px;
+  box-shadow: 0 6px 30px rgba(80, 50, 10, .15);
+  padding-bottom: 32px;
+  overflow: hidden;
+}
+
+/* keep list-based menu style (so your existing UI remains) */
+.menu-list {
+  display: none;
+  /* hidden by default */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-section.active .menu-list {
+  display: block;
+  /* show when active */
+}
+
+.menu-headline {
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+  background: #eee;
+  margin: 0;
+  border: 1px solid #ccc;
+  font-family: 'Cinzel', serif;
+  font-size: 1.28rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #f7deaf 60%, #edc987 100%);
+  margin: 0;
+  padding: 14px 18px 8px 14px;
+  color: #b78532;
+  border-left: 8px solid #f2c77e;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 2px 6px #f5e1bd4d;
+}
+
+.menu-headline::after {
+  content: " +";
+  float: right;
+}
+
+.menu-section.active .menu-headline::after {
+  content: " -";
+}
+
+/* menu-item rows (name + price inline) */
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 18px 13px 23px;
+  border-bottom: 1px dashed #d4b381;
+  font-size: 1.09rem;
+  cursor: pointer;
+  background: linear-gradient(90deg, #fff7e1 80%, #f6e5cb 100%);
+  position: relative;
+  transition: background 0.16s;
+}
+
+.menu-item:last-child {
+  border: none;
+}
+
+.menu-item:hover {
+  background: #f8ead3;
+}
+
+.menu-item-name {
+  color: #9c7137;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  max-width: 65%;
+}
+
+.menu-item-price {
+  color: #a87e3a;
+  font-family: 'Cinzel', serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  float: right;
+}
+
+/* Modal styling (kept) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(68, 43, 9, 0.26);
+}
+
+.modal-content {
+  background: #fffbe8;
+  margin: 58px auto;
+  padding: 22px 15px 16px 15px;
+  border-radius: 18px;
+  width: 98%;
+  max-width: 370px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 5px 38px rgba(81, 65, 10, 0.18);
+  border: 3px solid #f2c77e;
+}
+
+.close {
+  color: #bea66a;
+  position: absolute;
+  right: 23px;
+  top: 19px;
+  font-size: 33px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.1s;
+}
+
+.close:hover {
+  color: #a88439;
+}
+
+#modal-img {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 13px 0 14px 0;
+  box-shadow: 0 2px 18px #d9b5791a;
+}
+
+#modal-title {
+  color: #b78532;
+  font-size: 1.26rem;
+  font-family: 'Cinzel', serif;
+  margin-bottom: .05em;
+}
+
+#modal-desc {
+  color: #81623c;
+  font-size: 1.04rem;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+#modal-ingredients {
+  padding-left: 1.2em;
+  color: #9c7c53;
+  text-align: left;
+  font-size: 1rem;
+}
+
+#modal-price {
+  color: #ad943d;
+  margin-top: 15px;
+  font-size: 1.13rem;
+}
+
+.menu-tip {
+  font-style: italic;
+  color: #7a6247;
+  background: #f5e4b8;
+  border-left: 5px solid #c4a45c;
+  padding: 8px 12px;
+  margin: 20px 14px 5px 14px;
+  border-radius: 8px;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  max-width: 400px;
+  box-shadow: 2px 2px 8px #d6c491aa;
+}
+
+/* header & footer (keep original look; added header-logo) */
+header {
+  background: linear-gradient(90deg, #e2c799 0%, #cfb691 100%);
+  padding: 28px 14px 12px 14px;
+  text-align: center;
+  border-bottom: 3px solid #bfa570;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.1rem;
+  letter-spacing: 1.5px;
+  color: #a8772a;
+}
+
+.subtitle {
+  margin-top: 6px;
+  color: #81623c;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.header-logo {
+  max-height: 68px;
+  display: block;
+  margin: 0 auto 10px;
+  object-fit: contain;
+}
+
+.menu-section {
+  margin: 35px 0 12px 0;
+}
+
+/* Footer */
+.site-footer {
+  background: #e2c799;
+  color: #5a4422;
+  text-align: center;
+  padding: 18px 12px;
+  border-top: 3px solid #bfa570;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: #5a4422;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #8c6521;
+}
+
+.contact-info {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.credit {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #7a5a33;
+  font-style: italic;
+}
+
+/* Landing screen styles (new small additions) */
+.landing-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px;
+  text-align: center;
+}
+
+.landing-screen img#landingLogo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary {
+  margin-top: 12px;
+  padding: 10px 18px;
+  background: #a8772a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #8c6521;
+}
+
+/* small screens tweaks */
+@media (max-width: 490px) {
+  .menu-book {
+    max-width: 100vw;
+    border-radius: 0;
+    border-width: 2px;
+  }
+
+  .modal-content {
+    margin: 40px auto;
+  }
+
+  .menu-item {
+    padding-right: 13px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+}
