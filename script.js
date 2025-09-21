@@ -39,7 +39,7 @@ function safeSetImage(imgEl, src, altText) {
 async function loadRestaurantData() {
   try {
     const params = new URLSearchParams(window.location.search);
-    const restaurant = params.get("restaurant") || "kaveri";
+    const restaurant = params.get("restaurant") || "silver-spoon";
     const res = await fetch(`data/${restaurant}.json`);
     if (!res.ok) throw new Error("Menu file not found");
     restaurantData = await res.json();
@@ -55,7 +55,7 @@ async function loadRestaurantData() {
 // ======= Landing Page =======
 function renderLanding() {
   landingTitle.textContent = restaurantData.name;
-  titleEl.textContent = `Welcome to ${restaurantData.name}`;
+  titleEl.textContent = `${restaurantData.name}`;
   subtitleEl.textContent = restaurantData.subtitle || "";
 
   safeSetImage(landingLogo, restaurantData.logo, restaurantData.name);
