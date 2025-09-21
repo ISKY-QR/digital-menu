@@ -274,6 +274,33 @@ header h1 {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
+/* ===== Language Toggle Button ===== */
+#langToggle {
+  /* position: fixed;          stays visible on screen */
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  background-color:#a8772a; /* accent color */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#langToggle:hover {
+  background-color: #a8772a; /* slightly darker on hover */
+  transform: translateY(-2px);
+}
+
+#langToggle:active {
+  transform: translateY(0);
+}
+
+
 .btn-primary {
   margin-top: 12px;
   padding: 10px 18px;

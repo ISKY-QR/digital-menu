@@ -1,16 +1,1228 @@
 {
-  "name": "Kaveri Restaurant",
+  "name": "Silver Spoon Restaurant",
   "subtitle": "Authentic Flavors",
-  "logo": "",
+  "logo":"images/logo1.png",
 
   "sections": [
-    { "key": "starters", "titleEn": "Starters", "titleHi": "स्टार्टर" },
-    { "key": "SoupVeg", "titleEn": "Veg Soup", "titleHi": "वेज सूप" },
-    { "key": "main", "titleEn": "Main Course", "titleHi": "मुख्य भोजन" },
-    { "key": "desserts", "titleEn": "Desserts", "titleHi": "मिठाई" }
+   
+    { "key": "Noodle bowl", "titleEn": "Noodle bowl", "titleHi": "नूडल बाउल" },
+    { "key": "Rice", "titleEn": "Rice", "titleHi": "चावल" },
+    { "key": "Veg Starter", "titleEn": "Veg Starter", "titleHi": "वेजस्टार्टर" },
+    { "key": "Non-Veg Starter", "titleEn": "Non-Veg Starter", "titleHi": "नॉन-वेज स्टार्टर" },
+    { "key": "Roti Naan", "titleEn": "Roti Naan", "titleHi": "रोटी नान" },
+    { "key": "Main Course Veg", "titleEn": "Main Course Veg", "titleHi": "मेन कोर्स Veg" },
+    { "key": "Dal", "titleEn": "Dal", "titleHi": "दाल" },
+    { "key": "Drinks", "titleEn": "Drinks", "titleHi": "Drinks" },
+    { "key": "Dairy Drinks", "titleEn": "Dairy Drinks", "titleHi": "डेयरी Drinks" }
+
+
+
+
   ],
 
   "items": [
+
+    {
+  "type": "Roti Naan",
+  "name": { "en": "Roti", "hi": "रोटी" },
+  "price": 12,
+  "image": "https://atastykitchen.com/wp-content/uploads/2022/08/Roti.jpg",
+  "description": "Soft whole wheat Indian bread cooked on a tawa.",
+  "about": { "en": "Traditional Indian flatbread made with whole wheat flour.", "hi": "गेहूं के आटे से बनी पारंपरिक भारतीय फ्लैटब्रेड।" },
+  "ingredients": { "en": ["Whole Wheat Flour", "Water", "Salt"], "hi": ["गेहूं का आटा", "पानी", "नमक"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Butter Roti", "hi": "बटर रोटी" },
+  "price": 15,
+  "image": "https://png.pngtree.com/png-clipart/20240921/original/pngtree-delicious-indian-chapati-served-with-butter-png-image_16052746.png",
+  "description": "Whole wheat roti topped with fresh butter.",
+  "about": { "en": "Soft tawa roti brushed with a layer of butter for extra flavor.", "hi": "मक्खन के स्वाद के साथ नरम तवा रोटी।" },
+  "ingredients": { "en": ["Whole Wheat Flour", "Water", "Salt", "Butter"], "hi": ["गेहूं का आटा", "पानी", "नमक", "मक्खन"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Naan", "hi": "नान" },
+  "price": 35,
+  "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/butter-naan-500x500.jpg",
+  "description": "Leavened refined flour bread baked in a tandoor.",
+  "about": { "en": "Soft and fluffy Indian bread baked in a clay oven.", "hi": "मुलायम और फूली हुई तंदूरी भारतीय ब्रेड।" },
+  "ingredients": { "en": ["Refined Flour", "Yeast", "Salt", "Water"], "hi": ["मैदा", "यीस्ट", "नमक", "पानी"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Butter Naan", "hi": "बटर नान" },
+  "price": 40,
+  "image": "https://img.pikbest.com/png-images/20241230/delicious-butter-naan-bread_11320792.png!bw700",
+  "description": "Tandoori naan topped with melted butter.",
+  "about": { "en": "Soft naan baked in a clay oven and brushed with butter.", "hi": "तंदूर में बेक की गई नान पर पिघला हुआ मक्खन लगाया गया।" },
+  "ingredients": { "en": ["Refined Flour", "Yeast", "Salt", "Butter"], "hi": ["मैदा", "यीस्ट", "नमक", "मक्खन"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Garlic Naan", "hi": "गार्लिक नान" },
+  "price": 80,
+  "image": "https://thebellyrulesthemind.net/wp-content/uploads/2020/09/Garlic-Naan-3.jpg",
+  "description": "Tandoori naan flavored with fresh garlic and herbs.",
+  "about": { "en": "Soft naan topped with minced garlic and coriander for a rich aroma.", "hi": "लहसुन और हरे धनिए के साथ टॉप की गई नान।" },
+  "ingredients": { "en": ["Refined Flour", "Garlic", "Coriander", "Butter"], "hi": ["मैदा", "लहसुन", "धनिया", "मक्खन"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Plain Kulcha", "hi": "प्लेन कुलचा" },
+  "price": 40,
+  "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/10/kulcha-recipe-1.jpg",
+  "description": "Soft baked bread made with refined flour.",
+  "about": { "en": "Light and fluffy kulcha baked in a clay oven.", "hi": "तंदूर में बेक किया गया हल्का और फूला हुआ कुलचा।" },
+  "ingredients": { "en": ["Refined Flour", "Salt", "Water"], "hi": ["मैदा", "नमक", "पानी"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Masala Kulcha", "hi": "masala कुलचा" },
+  "price": 50,
+  "image": "https://myblacktree.com/cdn/shop/files/first-para-4-removebg-preview.png?v=1691036148",
+  "description": "Special kulcha with a rich buttery flavor.",
+  "about": { "en": "Soft kulcha baked in tandoor with a buttery taste.", "hi": "मक्खन के स्वाद वाला तंदूरी कुलचा।" },
+  "ingredients": { "en": ["Refined Flour", "Butter", "Salt"], "hi": ["मैदा", "मक्खन", "नमक"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Stuffed Kulcha", "hi": "स्टफ्ड कुलचा" },
+  "price": 60,
+  "image": "https://www.cookwithkushi.com/wp-content/uploads/2021/06/IMG_3760c.jpg",
+  "description": "Kulcha stuffed with spiced potatoes or paneer.",
+  "about": { "en": "Fluffy kulcha filled with a savory potato or paneer stuffing.", "hi": "आलू या पनीर की नमकीन स्टफिंग से भरा फूला हुआ कुलचा।" },
+  "ingredients": { "en": ["Refined Flour", "Potato/Panneer", "Spices"], "hi": ["मैदा", "आलू/पनीर", "मसाले"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Lachha Paratha", "hi": "लच्छा पराठा" },
+  "price": 40,
+  "image": "",
+  "description": "Layered paratha made with refined flour and ghee.",
+  "about": { "en": "Flaky multi-layered paratha cooked with ghee.", "hi": "घी के साथ पकाया गया परतदार पराठा।" },
+  "ingredients": { "en": ["Refined Flour", "Ghee", "Salt"], "hi": ["मैदा", "घी", "नमक"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Missi Roti", "hi": "मिस्सी रोटी" },
+  "price": 60,
+  "image": "",
+  "description": "North Indian bread made with a mix of gram flour and wheat flour.",
+  "about": { "en": "Traditional Punjabi roti made with gram flour and spices.", "hi": "बेसन और गेहूं के आटे से बनी पारंपरिक पंजाबी रोटी।" },
+  "ingredients": { "en": ["Gram Flour", "Wheat Flour", "Spices"], "hi": ["बेसन", "गेहूं का आटा", "मसाले"] }
+},
+{
+  "type": "Roti Naan",
+  "name": { "en": "Methi Roti", "hi": "मेथी रोटी" },
+  "price": 40,
+  "image": "",
+  "description": "Whole wheat roti flavored with fresh fenugreek leaves.",
+  "about": { "en": "Healthy roti made with wheat flour and fresh methi leaves.", "hi": "गेहूं के आटे और ताज़ी मेथी पत्तियों से बनी हेल्दी रोटी।" },
+  "ingredients": { "en": ["Whole Wheat Flour", "Fenugreek Leaves", "Salt"], "hi": ["गेहूं का आटा", "मेथी पत्तियां", "नमक"] }
+},
+
+
+    {
+  "type": "Dairy Drinks",
+  "name": { "en": "Gulabi Lassi", "hi": "गुलाबी लस्सी" },
+  "price": 60,
+  "image": "",
+  "description": "Sweet rose flavored lassi made with fresh curd and rose syrup.",
+  "about": { "en": "A refreshing blend of chilled yogurt and rose syrup with a hint of cardamom.", "hi": "ठंडी दही और गुलाब सिरप से बनी ताज़गी भरी लस्सी, इलायची के हल्के स्वाद के साथ।" },
+  "ingredients": { "en": ["Curd", "Rose Syrup", "Sugar", "Cardamom"], "hi": ["दही", "गुलाब सिरप", "चीनी", "इलायची"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Lassi", "hi": "लस्सी" },
+  "price": 50,
+  "image": "",
+  "description": "Traditional sweet or salted lassi made with fresh curd.",
+  "about": { "en": "A classic Punjabi drink prepared with thick yogurt and sugar or salt.", "hi": "गाढ़ी दही से बनी पारंपरिक मीठी या नमकीन लस्सी।" },
+  "ingredients": { "en": ["Curd", "Sugar", "Salt (optional)"], "hi": ["दही", "चीनी", "नमक (वैकल्पिक)"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Chhach (Buttermilk)", "hi": "छाछ" },
+  "price": 50,
+  "image": "",
+  "description": "Refreshing spiced buttermilk made from churned curd.",
+  "about": { "en": "A light drink made by blending curd with water, salt, and spices.", "hi": "दही को पानी, नमक और मसालों के साथ फेंट कर बनाई गई हल्की छाछ।" },
+  "ingredients": { "en": ["Curd", "Water", "Salt", "Roasted Cumin"], "hi": ["दही", "पानी", "नमक", "भुना जीरा"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Mix Raita", "hi": "मिक्स रायता" },
+  "price": 60,
+  "image": "",
+  "description": "Curd mixed with chopped vegetables and spices.",
+  "about": { "en": "Thick curd mixed with cucumber, tomato, onion, and mild spices.", "hi": "गाढ़ी दही में खीरा, टमाटर, प्याज और हल्के मसाले मिलाए गए।" },
+  "ingredients": { "en": ["Curd", "Cucumber", "Tomato", "Onion", "Spices"], "hi": ["दही", "खीरा", "टमाटर", "प्याज", "मसाले"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Raita", "hi": "रायता" },
+  "price": 50,
+  "image": "",
+  "description": "Plain curd seasoned with mild spices.",
+  "about": { "en": "Smooth curd flavored with salt, cumin, and a pinch of pepper.", "hi": "स्मूद दही में नमक, जीरा और हल्की काली मिर्च डाली गई।" },
+  "ingredients": { "en": ["Curd", "Salt", "Roasted Cumin", "Pepper"], "hi": ["दही", "नमक", "भुना जीरा", "काली मिर्च"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Pineapple Raita", "hi": "पाइनएप्पल रायता" },
+  "price": 90,
+  "image": "",
+  "description": "Sweet raita prepared with pineapple chunks and curd.",
+  "about": { "en": "Refreshing yogurt dish blended with fresh pineapple and sugar.", "hi": "ताज़ा अनानास और चीनी के साथ मिश्रित ठंडी दही।" },
+  "ingredients": { "en": ["Curd", "Pineapple", "Sugar", "Spices"], "hi": ["दही", "अनानास", "चीनी", "मसाले"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Plain Curd", "hi": "सादा दही" },
+  "price": 50,
+  "image": "",
+  "description": "Freshly set homemade curd.",
+  "about": { "en": "Smooth and creamy plain curd made from fresh milk.", "hi": "ताज़ा दूध से बनी मुलायम और मलाईदार सादी दही।" },
+  "ingredients": { "en": ["Milk", "Curd Culture"], "hi": ["दूध", "दही कल्चर"] }
+},
+{
+  "type": "Dairy Drinks",
+  "name": { "en": "Mishti Doi", "hi": "मिष्ठी दोई" },
+  "price": 40,
+  "image": "",
+  "description": "Traditional Bengali sweet curd flavored with caramelized sugar.",
+  "about": { "en": "Bengali style caramelized sweet yogurt with a rich texture.", "hi": "बंगाली स्टाइल की कारमेलाइज्ड मीठी दही।" },
+  "ingredients": { "en": ["Milk", "Curd Culture", "Caramelized Sugar"], "hi": ["दूध", "दही कल्चर", "कारमेलाइज्ड चीनी"] }
+},
+
+
+
+    {
+  "type": "Drinks",
+  "name": { "en": "Mango Shake", "hi": "मैंगो शेक" },
+  "price": 120,
+  "image": "",
+  "description": "Refreshing mango shake made with fresh mango pulp and milk.",
+  "about": { "en": "A creamy and sweet shake prepared with ripe mangoes and chilled milk.", "hi": "पके आम और ठंडे दूध से बना मलाईदार और मीठा शेक।" },
+  "ingredients": { "en": ["Mango", "Milk", "Sugar", "Ice Cream"], "hi": ["आम", "दूध", "चीनी", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Oreo Shake", "hi": "ओरियो शेक" },
+  "price": 110,
+  "image": "",
+  "description": "Delicious chocolate shake blended with Oreo cookies.",
+  "about": { "en": "Chilled milkshake made with Oreo biscuits and chocolate syrup.", "hi": "ओरियो बिस्किट और चॉकलेट सिरप से बना ठंडा मिल्कशेक।" },
+  "ingredients": { "en": ["Milk", "Oreo Biscuits", "Chocolate Syrup", "Ice Cream"], "hi": ["दूध", "ओरियो बिस्किट", "चॉकलेट सिरप", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "KitKat Shake", "hi": "किटकैट शेक" },
+  "price": 130,
+  "image": "",
+  "description": "Chocolate shake mixed with KitKat pieces for a crunchy delight.",
+  "about": { "en": "Rich chocolate shake topped with crunchy KitKat bits.", "hi": "रिच चॉकलेट शेक को कुरकुरे किटकैट टुकड़ों के साथ।" },
+  "ingredients": { "en": ["Milk", "KitKat", "Chocolate Syrup", "Ice Cream"], "hi": ["दूध", "किटकैट", "चॉकलेट सिरप", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Strawberry Shake", "hi": "स्ट्रॉबेरी शेक" },
+  "price": 120,
+  "image": "",
+  "description": "Sweet strawberry shake with chilled milk and ice cream.",
+  "about": { "en": "Fresh strawberries blended with chilled milk and sugar.", "hi": "ताज़ी स्ट्रॉबेरी को ठंडे दूध और चीनी के साथ ब्लेंड किया गया।" },
+  "ingredients": { "en": ["Strawberries", "Milk", "Sugar", "Ice Cream"], "hi": ["स्ट्रॉबेरी", "दूध", "चीनी", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Butterscotch Shake", "hi": "बटरस्कॉच शेक" },
+  "price": 140,
+  "image": "",
+  "description": "Smooth butterscotch flavored shake with caramel crunch.",
+  "about": { "en": "Chilled milkshake infused with rich butterscotch flavor.", "hi": "रिच बटरस्कॉच फ्लेवर वाला ठंडा मिल्कशेक।" },
+  "ingredients": { "en": ["Milk", "Butterscotch Syrup", "Sugar", "Ice Cream"], "hi": ["दूध", "बटरस्कॉच सिरप", "चीनी", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Vanilla Shake", "hi": "वनीला शेक" },
+  "price": 90,
+  "image": "",
+  "description": "Classic vanilla flavored milkshake.",
+  "about": { "en": "Smooth and creamy shake made with vanilla essence and chilled milk.", "hi": "वनीला एसेंस और ठंडे दूध से बना स्मूथ और मलाईदार शेक।" },
+  "ingredients": { "en": ["Milk", "Vanilla Essence", "Sugar", "Ice Cream"], "hi": ["दूध", "वनीला एसेंस", "चीनी", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Cold Coffee", "hi": "कोल्ड कॉफी" },
+  "price": 70,
+  "image": "",
+  "description": "Chilled coffee blended with milk and ice.",
+  "about": { "en": "Refreshing cold coffee with a smooth creamy texture. Option to add ice cream.", "hi": "ताज़गी देने वाली ठंडी कॉफी मलाईदार स्वाद के साथ। आइसक्रीम ऐड करने का विकल्प।" },
+  "ingredients": { "en": ["Coffee", "Milk", "Sugar", "Ice"], "hi": ["कॉफी", "दूध", "चीनी", "बर्फ"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Coffee", "hi": "कॉफी" },
+  "price": 50,
+  "image": "",
+  "description": "Hot brewed coffee with milk and sugar.",
+  "about": { "en": "Freshly brewed hot coffee with rich aroma.", "hi": "ताज़ा बनी हुई गर्म कॉफी सुगंधित स्वाद के साथ।" },
+  "ingredients": { "en": ["Coffee Powder", "Milk", "Sugar"], "hi": ["कॉफी पाउडर", "दूध", "चीनी"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Mojito", "hi": "मोजिटो" },
+  "price": 70,
+  "image": "",
+  "description": "Refreshing lemon-mint drink with soda and ice.",
+  "about": { "en": "A cool blend of lemon juice, mint leaves, soda, and sugar.", "hi": "नींबू का रस, पुदीना पत्तियां, सोडा और चीनी का ठंडा मिश्रण।" },
+  "ingredients": { "en": ["Lemon", "Mint", "Soda", "Sugar", "Ice"], "hi": ["नींबू", "पुदीना", "सोडा", "चीनी", "बर्फ"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Jeera Soda", "hi": "जीरा सोडा" },
+  "price": 40,
+  "image": "",
+  "description": "Sparkling soda with roasted cumin flavor.",
+  "about": { "en": "Refreshing soda flavored with roasted cumin and lemon.", "hi": "भुना हुआ जीरा और नींबू के स्वाद वाला ताज़ा सोडा।" },
+  "ingredients": { "en": ["Soda", "Roasted Cumin", "Salt", "Lemon"], "hi": ["सोडा", "भुना जीरा", "नमक", "नींबू"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Masala Cold Drink", "hi": "मसाला कोल्ड ड्रिंक" },
+  "price": 40,
+  "image": "",
+  "description": "Cold drink enhanced with tangy Indian spices.",
+  "about": { "en": "Chilled soda flavored with traditional masala spices.", "hi": "पारंपरिक मसालों के स्वाद वाला ठंडा सोडा।" },
+  "ingredients": { "en": ["Soda", "Masala Spices", "Salt", "Lemon"], "hi": ["सोडा", "मसाले", "नमक", "नींबू"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "Blueberry Shake", "hi": "ब्लूबेरी शेक" },
+  "price": 70,
+  "image": "",
+  "description": "Delicious blueberry flavored chilled shake.",
+  "about": { "en": "A refreshing milkshake blended with blueberry syrup.", "hi": "ब्लूबेरी सिरप से बना ताज़गी भरा मिल्कशेक।" },
+  "ingredients": { "en": ["Milk", "Blueberry Syrup", "Sugar", "Ice Cream"], "hi": ["दूध", "ब्लूबेरी सिरप", "चीनी", "आइसक्रीम"] }
+},
+{
+  "type": "Drinks",
+  "name": { "en": "9AM Lime Mojito", "hi": "9AM लाइम मोजिटो" },
+  "price": 70,
+  "image": "",
+  "description": "Morning special lime mojito with a refreshing kick.",
+  "about": { "en": "A special blend of lime juice, mint, and soda for a perfect start.", "hi": "नींबू का रस, पुदीना और सोडा का खास मिश्रण जो दिन की शानदार शुरुआत देता है।" },
+  "ingredients": { "en": ["Lime", "Mint", "Soda", "Sugar", "Ice"], "hi": ["नींबू", "पुदीना", "सोडा", "चीनी", "बर्फ"] }
+},
+
+
+
+{
+  "type": "Dal",
+  "name": { "en": "Yellow Dal Fry", "hi": "येलो दाल फ्राई" },
+  "price": 100,
+  "image": "",
+  "description": "Simple yellow lentils tempered with ghee and spices.",
+  "about": { "en": "Yellow moong dal cooked with mild spices and tempered with ghee, cumin, and garlic.", "hi": "पीली मूंग दाल को हल्के मसालों और घी, जीरा, लहसुन के तड़के के साथ पकाया गया।" },
+  "ingredients": { "en": ["Yellow Moong Dal", "Ghee", "Cumin", "Garlic", "Spices"], "hi": ["पीली मूंग दाल", "घी", "जीरा", "लहसुन", "मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Yellow Dal Tadka", "hi": "येलो दाल तड़का" },
+  "price": 120,
+  "image": "",
+  "description": "Yellow dal with aromatic tempering of garlic and spices.",
+  "about": { "en": "Cooked yellow lentils topped with a flavorful garlic and cumin tempering.", "hi": "पकी हुई पीली दाल पर लहसुन और जीरे का सुगंधित तड़का डाला गया।" },
+  "ingredients": { "en": ["Yellow Moong Dal", "Garlic", "Cumin", "Ghee", "Spices"], "hi": ["पीली मूंग दाल", "लहसुन", "जीरा", "घी", "मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Dal Tadka", "hi": "दाल तड़का" },
+  "price": 120,
+  "image": "",
+  "description": "Mixed lentils cooked and tempered with ghee and spices.",
+  "about": { "en": "A classic dish of mixed lentils with a rich ghee and garlic tadka.", "hi": "मिक्स दाल को घी और लहसुन के तड़के के साथ पकाया गया।" },
+  "ingredients": { "en": ["Mixed Lentils", "Ghee", "Garlic", "Cumin", "Spices"], "hi": ["मिक्स दाल", "घी", "लहसुन", "जीरा", "मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Paneer Tadka", "hi": "पनीर तड़का" },
+  "price": 140,
+  "image": "",
+  "description": "Dal tadka enriched with soft paneer cubes.",
+  "about": { "en": "Yellow dal tadka served with fresh soft paneer cubes for extra richness.", "hi": "तड़के वाली पीली दाल में ताज़े मुलायम पनीर के टुकड़े डाले गए।" },
+  "ingredients": { "en": ["Yellow Dal", "Paneer", "Ghee", "Garlic", "Spices"], "hi": ["पीली दाल", "पनीर", "घी", "लहसुन", "मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Dal Makhani", "hi": "दाल मखनी" },
+  "price": 160,
+  "image": "",
+  "description": "Creamy black lentils slow cooked with butter.",
+  "about": { "en": "Whole black urad dal and rajma slow cooked with cream, butter and mild spices.", "hi": "साबुत उरद दाल और राजमा को क्रीम, मक्खन और हल्के मसालों के साथ धीमी आंच पर पकाया गया।" },
+  "ingredients": { "en": ["Black Urad Dal", "Rajma", "Butter", "Cream", "Spices"], "hi": ["काली उरद दाल", "राजमा", "मक्खन", "क्रीम", "मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Dal Tadka Handi", "hi": "दाल तड़का हांडी" },
+  "price": 160,
+  "image": "",
+  "description": "Dal tadka cooked in a traditional clay pot for earthy flavor.",
+  "about": { "en": "Yellow dal cooked in a handi (clay pot) with a smoky tadka for extra taste.", "hi": "हांडी में पकाई गई पीली दाल को स्मोकी तड़के के साथ परोसा गया।" },
+  "ingredients": { "en": ["Yellow Dal", "Ghee", "Garlic", "Clay Pot Spices"], "hi": ["पीली दाल", "घी", "लहसुन", "हांडी मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Dal Tadka Punjabi", "hi": "दाल तड़का पंजाबी" },
+  "price": 170,
+  "image": "",
+  "description": "Punjabi style rich and buttery dal tadka.",
+  "about": { "en": "Yellow dal cooked in Punjabi style with butter, cream, and strong spices.", "hi": "पंजाबी स्टाइल में मक्खन, क्रीम और तेज मसालों के साथ पकी पीली दाल।" },
+  "ingredients": { "en": ["Yellow Dal", "Butter", "Cream", "Garlic", "Punjabi Spices"], "hi": ["पीली दाल", "मक्खन", "क्रीम", "लहसुन", "पंजाबी मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Pancharatna Dal Tadka", "hi": "पंचरत्ना दाल तड़का" },
+  "price": 170,
+  "image": "",
+  "description": "Five different lentils cooked with ghee tadka.",
+  "about": { "en": "A mix of five varieties of lentils cooked together with a rich ghee tadka.", "hi": "पांच तरह की दालों का मिश्रण घी के तड़के के साथ पकाया गया।" },
+  "ingredients": { "en": ["Five Lentils", "Ghee", "Garlic", "Cumin", "Spices"], "hi": ["पांच तरह की दालें", "घी", "लहसुन", "जीरा", "मसाले"] }
+},
+{
+  "type": "Dal",
+  "name": { "en": "Egg Tadka", "hi": "एग तड़का" },
+  "price": 150,
+  "image": "",
+  "description": "Dal tadka topped with scrambled eggs.",
+  "about": { "en": "Yellow dal tadka garnished with soft scrambled eggs for a unique twist.", "hi": "तड़के वाली पीली दाल पर नरम स्क्रैम्बल एग्स डाले गए।" },
+  "ingredients": { "en": ["Yellow Dal", "Egg", "Ghee", "Garlic", "Spices"], "hi": ["पीली दाल", "अंडा", "घी", "लहसुन", "मसाले"] }
+},
+
+
+  {
+  "type": "Main Course Veg",
+  "name": { "en": "Aloo Dam", "hi": "आलू दम" },
+  "price": 160,
+  "image": "",
+  "description": "Spicy potato curry cooked in flavorful gravy.",
+  "about": { "en": "Potatoes simmered in a traditional spicy North Indian curry.", "hi": "प्याज, टमाटर और मसालों में पकाया गया पारंपरिक आलू का करी।" },
+  "ingredients": { "en": ["Potato", "Onion", "Tomato", "Spices"], "hi": ["आलू", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Aloo Masala", "hi": "आलू मसाला" },
+  "price": 160,
+  "image": "",
+  "description": "Potato cubes cooked in aromatic masala gravy.",
+  "about": { "en": "Soft potato pieces cooked in flavorful Indian spices.", "hi": "नरम आलू मसालों के साथ स्वादिष्ट करी में।" },
+  "ingredients": { "en": ["Potato", "Onion", "Tomato", "Spices"], "hi": ["आलू", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Aalu Banarasi", "hi": "आलू बनारसी" },
+  "price": 250,
+  "image": "",
+  "description": "Banarasi style potato curry with rich spices.",
+  "about": { "en": "Traditional North Indian Banarasi potato curry with aromatic spices.", "hi": "पारंपरिक बनारसी मसालेदार आलू की करी।" },
+  "ingredients": { "en": ["Potato", "Onion", "Tomato", "Banarasi Spices"], "hi": ["आलू", "प्याज", "टमाटर", "बनारसी मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Mix Veg", "hi": "मिक्स वेज" },
+  "price": 170,
+  "image": "",
+  "description": "Assorted vegetables cooked in flavorful gravy.",
+  "about": { "en": "Fresh seasonal vegetables cooked in Indian spices.", "hi": "ताज़ी मौसमी सब्ज़ियों को मसालों के साथ पकाया गया।" },
+  "ingredients": { "en": ["Carrot", "Beans", "Cauliflower", "Capsicum", "Spices"], "hi": ["गाजर", "बीन्स", "फूलगोभी", "शिमला मिर्च", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Veg Patiala", "hi": "वेज पटियाला" },
+  "price": 190,
+  "image": "",
+  "description": "Patiala style mixed vegetable curry with aromatic spices.",
+  "about": { "en": "Rich and spicy North Indian vegetable curry from Patiala.", "hi": "पटियाला की मसालेदार और स्वादिष्ट सब्ज़ी करी।" },
+  "ingredients": { "en": ["Carrot", "Beans", "Cauliflower", "Capsicum", "Spices"], "hi": ["गाजर", "बीन्स", "फूलगोभी", "शिमला मिर्च", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Veg Kolhapuri", "hi": "वेज कोल्हापुरी" },
+  "price": 190,
+  "image": "",
+  "description": "Kolhapuri style spicy vegetable curry with rich flavors.",
+  "about": { "en": "Spicy Maharashtrian style curry cooked with traditional Kolhapuri masala.", "hi": "महाराष्ट्रीयन कोल्हापुरी मसाले में मसालेदार सब्ज़ी करी।" },
+  "ingredients": { "en": ["Carrot", "Beans", "Cauliflower", "Capsicum", "Kolhapuri Masala"], "hi": ["गाजर", "बीन्स", "फूलगोभी", "शिमला मिर्च", "कोल्हापुरी मसाला"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Veg Jaipuri", "hi": "वेज जयपुरी" },
+  "price": 180,
+  "image": "",
+  "description": "Jaipuri style vegetable curry with mild spices.",
+  "about": { "en": "Traditional Jaipur recipe with assorted vegetables and spices.", "hi": "जयपुर की पारंपरिक रेसिपी मसालेदार सब्ज़ियों के साथ।" },
+  "ingredients": { "en": ["Carrot", "Beans", "Cauliflower", "Capsicum", "Spices"], "hi": ["गाजर", "बीन्स", "फूलगोभी", "शिमला मिर्च", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Veg Jhalfryz", "hi": "वेज जाल्फ्रायज़" },
+  "price": 180,
+  "image": "",
+  "description": "Quick stir-fried mixed vegetables with spices.",
+  "about": { "en": "Stir-fried vegetables cooked with Indian masala for a semi-dry curry.", "hi": "भारतीय मसालों में हल्की सब्ज़ियों की भुर्जी।" },
+  "ingredients": { "en": ["Carrot", "Beans", "Capsicum", "Onion", "Spices"], "hi": ["गाजर", "बीन्स", "शिमला मिर्च", "प्याज", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Veg Jharkhandi", "hi": "वेज झारखंडी" },
+  "price": 190,
+  "image": "",
+  "description": "Jharkhand style mixed vegetable curry with rich spices.",
+  "about": { "en": "Traditional Jharkhand recipe with assorted vegetables in a flavorful gravy.", "hi": "झारखंडी स्टाइल मसालेदार सब्ज़ी करी।" },
+  "ingredients": { "en": ["Carrot", "Beans", "Cauliflower", "Capsicum", "Spices"], "hi": ["गाजर", "बीन्स", "फूलगोभी", "शिमला मिर्च", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Baby Corn Masala", "hi": "बेबी कॉर्न मसाला" },
+  "price": 180,
+  "image": "",
+  "description": "Baby corn cooked in rich and creamy masala gravy.",
+  "about": { "en": "Tender baby corn simmered in flavorful Indian spices.", "hi": "नरम बेबी कॉर्न स्वादिष्ट भारतीय मसालों में।" },
+  "ingredients": { "en": ["Baby Corn", "Onion", "Tomato", "Spices"], "hi": ["बेबी कॉर्न", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Mushroom Masala", "hi": "मशरूम मसाला" },
+  "price": 190,
+  "image": "",
+  "description": "Mushrooms cooked in rich and creamy Indian masala gravy.",
+  "about": { "en": "Tender mushrooms simmered in aromatic spices.", "hi": "नरम मशरूम मसालेदार ग्रेवी में।" },
+  "ingredients": { "en": ["Mushroom", "Onion", "Tomato", "Spices"], "hi": ["मशरूम", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Mushroom Baby Corn Masala", "hi": "मशरूम बेबी कॉर्न मसाला" },
+  "price": 210,
+  "image": "",
+  "description": "Combination of mushroom and baby corn cooked in spicy gravy.",
+  "about": { "en": "A flavorful blend of mushroom and baby corn in aromatic curry.", "hi": "मशरूम और बेबी कॉर्न का मसालेदार करी मिश्रण।" },
+  "ingredients": { "en": ["Mushroom", "Baby Corn", "Onion", "Tomato", "Spices"], "hi": ["मशरूम", "बेबी कॉर्न", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Mushroom Handi", "hi": "मशरूम हांडी" },
+  "price": 230,
+  "image": "",
+  "description": "Mushroom curry slow cooked in handi style for rich flavor.",
+  "about": { "en": "Slow cooked mushroom curry in a traditional handi with aromatic spices.", "hi": "पारंपरिक हांडी में धीमी आंच पर पका मशरूम करी।" },
+  "ingredients": { "en": ["Mushroom", "Onion", "Tomato", "Spices"], "hi": ["मशरूम", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Mushroom Khadi", "hi": "मशरूम खाड़ी" },
+  "price": 220,
+  "image": "",
+  "description": "Tangy mushroom curry with yogurt-based gravy.",
+  "about": { "en": "Mushrooms cooked in a tangy, spiced yogurt gravy.", "hi": "खट्टी दही वाली ग्रेवी में पका मशरूम।" },
+  "ingredients": { "en": ["Mushroom", "Yogurt", "Spices"], "hi": ["मशरूम", "दही", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Mushroom Do Pyaza", "hi": "मशरूम दो प्याज़ा" },
+  "price": 210,
+  "image": "",
+  "description": "Mushroom cooked with double onion and spices.",
+  "about": { "en": "Mushroom curry cooked with double onion for rich flavor.", "hi": "डबल प्याज़ के साथ पका मशरूम करी।" },
+  "ingredients": { "en": ["Mushroom", "Onion", "Tomato", "Spices"], "hi": ["मशरूम", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Mushroom Masala", "hi": "पनीर मशरूम मसाला" },
+  "price": 230,
+  "image": "",
+  "description": "Paneer and mushrooms cooked in rich spicy gravy.",
+  "about": { "en": "A perfect blend of paneer and mushroom in creamy masala.", "hi": "पनीर और मशरूम का मलाईदार मसाला मिश्रण।" },
+  "ingredients": { "en": ["Paneer", "Mushroom", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "मशरूम", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Baby Corn Masala", "hi": "पनीर बेबी कॉर्न मसाला" },
+  "price": 230,
+  "image": "",
+  "description": "Paneer and baby corn cooked in spicy creamy gravy.",
+  "about": { "en": "Soft paneer cubes and baby corn in rich masala.", "hi": "मलाईदार मसाले में पनीर और बेबी कॉर्न का स्वादिष्ट मिश्रण।" },
+  "ingredients": { "en": ["Paneer", "Baby Corn", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "बेबी कॉर्न", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Butter Masala", "hi": "पनीर बटर मसाला" },
+  "price": 200,
+  "image": "",
+  "description": "Paneer cubes in a creamy tomato butter gravy.",
+  "about": { "en": "Soft paneer cooked in rich buttery tomato gravy.", "hi": "मलाईदार टमाटर-बटर ग्रेवी में पका पनीर।" },
+  "ingredients": { "en": ["Paneer", "Tomato", "Butter", "Cream", "Spices"], "hi": ["पनीर", "टमाटर", "बटर", "क्रीम", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Masala", "hi": "पनीर मसाला" },
+  "price": 190,
+  "image": "",
+  "description": "Paneer cubes cooked in spicy onion-tomato gravy.",
+  "about": { "en": "Soft paneer pieces cooked with Indian spices.", "hi": "पनीर को भारतीय मसालों और टमाटर की ग्रेवी में पकाया गया।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Do Pyaza", "hi": "पनीर दो प्याज़ा" },
+  "price": 210,
+  "image": "",
+  "description": "Paneer cooked with double onion for rich taste.",
+  "about": { "en": "Paneer cubes cooked with a generous amount of onion.", "hi": "डबल प्याज़ के साथ पका पनीर।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Handi", "hi": "पनीर हांडी" },
+  "price": 240,
+  "image": "",
+  "description": "Paneer curry slow cooked in traditional handi.",
+  "about": { "en": "Rich handi style paneer curry with aromatic spices.", "hi": "पारंपरिक हांडी में धीमी आंच पर पका पनीर करी।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Khadi", "hi": "पनीर खाड़ी" },
+  "price": 220,
+  "image": "",
+  "description": "Tangy paneer curry with yogurt-based gravy.",
+  "about": { "en": "Paneer cooked in a tangy spiced yogurt gravy.", "hi": "खट्टी दही वाली ग्रेवी में पका पनीर।" },
+  "ingredients": { "en": ["Paneer", "Yogurt", "Spices"], "hi": ["पनीर", "दही", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Punjabi", "hi": "पनीर पंजाबी" },
+  "price": 270,
+  "image": "",
+  "description": "Punjabi style paneer curry with bold spices.",
+  "about": { "en": "Spicy Punjabi masala curry with paneer cubes.", "hi": "मसालेदार पंजाबी मसाला करी में पका पनीर।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Lababdar", "hi": "पनीर लबाबदार" },
+  "price": 250,
+  "image": "",
+  "description": "Paneer cooked in a rich, creamy, mildly spiced gravy.",
+  "about": { "en": "Mughlai style paneer curry with cream and aromatic spices.", "hi": "मुगलई स्टाइल मलाईदार पनीर करी।" },
+  "ingredients": { "en": ["Paneer", "Tomato", "Cream", "Spices"], "hi": ["पनीर", "टमाटर", "क्रीम", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Chingari", "hi": "पनीर चिंगारी" },
+  "price": 260,
+  "image": "",
+  "description": "Spicy paneer curry with fiery flavors.",
+  "about": { "en": "Paneer cubes in a hot and spicy Indian masala.", "hi": "तीखे मसालों के साथ पका हुआ पनीर।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Hot Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "तेज़ मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Angara", "hi": "पनीर अंगारा" },
+  "price": 260,
+  "image": "",
+  "description": "Smoky flavored spicy paneer curry.",
+  "about": { "en": "Paneer cooked with a smoky and spicy Indian masala.", "hi": "स्मोकी फ्लेवर और मसालेदार पनीर करी।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Smoked Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "स्मोकी मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Chatpata", "hi": "पनीर चटपटा" },
+  "price": 240,
+  "image": "",
+  "description": "Tangy and spicy paneer curry.",
+  "about": { "en": "Paneer cubes cooked with tangy spices for a chatpata taste.", "hi": "चटपटे मसालों में पका हुआ पनीर।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Tangy Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "खट्टे मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Patiala", "hi": "पनीर पटियाला" },
+  "price": 250,
+  "image": "",
+  "description": "Patiala style paneer curry with rich gravy.",
+  "about": { "en": "Paneer cooked in Patiala style rich masala curry.", "hi": "पटियाला स्टाइल की मलाईदार मसाला पनीर करी।" },
+  "ingredients": { "en": ["Paneer", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Palak", "hi": "पनीर पालक" },
+  "price": 250,
+  "image": "",
+  "description": "Paneer cubes cooked in smooth spinach gravy.",
+  "about": { "en": "Fresh spinach purée cooked with paneer and mild spices.", "hi": "पालक प्यूरी और हल्के मसालों में पका पनीर।" },
+  "ingredients": { "en": ["Paneer", "Spinach", "Onion", "Tomato", "Spices"], "hi": ["पनीर", "पालक", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Shahi Paneer", "hi": "शाही पनीर" },
+  "price": 230,
+  "image": "",
+  "description": "Royal Mughlai style creamy paneer curry.",
+  "about": { "en": "Paneer cubes cooked in a rich Mughlai cashew-cream gravy.", "hi": "मुगलई काजू-क्रीम ग्रेवी में पका पनीर।" },
+  "ingredients": { "en": ["Paneer", "Cashew", "Cream", "Spices"], "hi": ["पनीर", "काजू", "क्रीम", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "New Silver Spoon Special", "hi": "न्यू सिल्वर स्पून स्पेशल" },
+  "price": 270,
+  "image": "",
+  "description": "Chef's special mixed vegetable and paneer curry.",
+  "about": { "en": "House special rich curry made with mixed vegetables and paneer.", "hi": "मिक्स सब्ज़ियों और पनीर से बनी खास स्पेशल करी।" },
+  "ingredients": { "en": ["Paneer", "Vegetables", "Onion", "Tomato", "Special Spices"], "hi": ["पनीर", "सब्ज़ियां", "प्याज", "टमाटर", "स्पेशल मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Veg Kofta", "hi": "वेज कोफ्ता" },
+  "price": 200,
+  "image": "",
+  "description": "Vegetable dumplings served in creamy curry.",
+  "about": { "en": "Deep-fried vegetable balls simmered in rich masala gravy.", "hi": "तली हुई सब्ज़ियों की गेंदें मसालेदार करी में।" },
+  "ingredients": { "en": ["Mixed Vegetables", "Paneer", "Onion", "Tomato", "Spices"], "hi": ["मिक्स सब्ज़ियां", "पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Paneer Kofta", "hi": "पनीर कोफ्ता" },
+  "price": 250,
+  "image": "",
+  "description": "Paneer dumplings served in creamy tomato gravy.",
+  "about": { "en": "Soft paneer balls cooked in a rich tomato-cream gravy.", "hi": "टमाटर-क्रीम ग्रेवी में पका पनीर कोफ्ता।" },
+  "ingredients": { "en": ["Paneer", "Cream", "Tomato", "Spices"], "hi": ["पनीर", "क्रीम", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Punjabi Kofta", "hi": "पंजाबी कोफ्ता" },
+  "price": 260,
+  "image": "",
+  "description": "Punjabi style spicy kofta curry.",
+  "about": { "en": "Rich and spicy Punjabi style vegetable kofta curry.", "hi": "मसालेदार पंजाबी स्टाइल कोफ्ता करी।" },
+  "ingredients": { "en": ["Vegetables", "Paneer", "Onion", "Tomato", "Spices"], "hi": ["सब्ज़ियां", "पनीर", "प्याज", "टमाटर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Malai Kofta", "hi": "मलाई कोफ्ता" },
+  "price": 260,
+  "image": "",
+  "description": "Soft kofta dumplings in creamy malai gravy.",
+  "about": { "en": "Paneer and potato dumplings cooked in a creamy malai sauce.", "hi": "पनीर और आलू की गेंदें मलाईदार सॉस में।" },
+  "ingredients": { "en": ["Paneer", "Potato", "Cream", "Spices"], "hi": ["पनीर", "आलू", "क्रीम", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Tamatar Stopping", "hi": "टमाटर स्टफिंग" },
+  "price": 269,
+  "image": "",
+  "description": "Tomatoes stuffed with spiced paneer mixture.",
+  "about": { "en": "Whole tomatoes stuffed with spiced paneer and slow cooked.", "hi": "मसालेदार पनीर मिश्रण से भरे टमाटर धीमी आंच पर पकाए गए।" },
+  "ingredients": { "en": ["Tomato", "Paneer", "Spices"], "hi": ["टमाटर", "पनीर", "मसाले"] }
+},
+{
+  "type": "Main Course Veg",
+  "name": { "en": "Capsicum Stopping", "hi": "कैप्सिकम स्टफिंग" },
+  "price": 269,
+  "image": "",
+  "description": "Capsicum stuffed with paneer and spices.",
+  "about": { "en": "Bell peppers filled with spiced paneer mixture and baked.", "hi": "मसालेदार पनीर मिश्रण से भरी शिमला मिर्च।" },
+  "ingredients": { "en": ["Capsicum", "Paneer", "Spices"], "hi": ["शिमला मिर्च", "पनीर", "मसाले"] }
+},
+
+
+
+
+    {
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken Chilli (10 pcs)", "hi": "चिकन चिल्ली (१० पीस)" },
+  "price": 200,
+  "image": "",
+  "description": "Tender chicken pieces tossed with bell peppers and onions in spicy chili sauce.",
+  "about": { "en": "Juicy chicken cubes cooked in a fiery chili sauce with vegetables.", "hi": "रसदार चिकन के टुकड़े सब्ज़ियों और तीखी चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Chicken", "Capsicum", "Onion", "Chili Sauce"], "hi": ["चिकन", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken Salt Pepper", "hi": "चिकन सॉल्ट पेपर" },
+  "price": 180,
+  "image": "",
+  "description": "Crispy chicken cubes stir-fried with salt, pepper, and vegetables.",
+  "about": { "en": "Tender chicken cooked with bell peppers, onions, salt, and pepper.", "hi": "नरम चिकन शिमला मिर्च, प्याज, नमक और काली मिर्च के साथ।" },
+  "ingredients": { "en": ["Chicken", "Capsicum", "Onion", "Salt", "Pepper"], "hi": ["चिकन", "शिमला मिर्च", "प्याज", "नमक", "काली मिर्च"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken 65", "hi": "चिकन ६५" },
+  "price": 180,
+  "image": "",
+  "description": "Deep-fried spicy chicken cubes.",
+  "about": { "en": "Chicken marinated with spices and fried until crispy.", "hi": "मसालों में मैरीनेट किए हुए चिकन के कुरकुरे टुकड़े।" },
+  "ingredients": { "en": ["Chicken", "Spices", "Flour"], "hi": ["चिकन", "मसाले", "आटा"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken Lollipop (6 pcs)", "hi": "चिकन लॉलीपॉप (६ पीस)" },
+  "price": 230,
+  "image": "",
+  "description": "Chicken drumettes marinated and deep-fried to perfection.",
+  "about": { "en": "Juicy chicken drumsticks coated in spices and fried.", "hi": "रसदार चिकन ड्रमस्टिक्स मसालों में लिपटे और तले हुए।" },
+  "ingredients": { "en": ["Chicken Drumsticks", "Spices", "Flour"], "hi": ["चिकन ड्रमस्टिक्स", "मसाले", "आटा"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Crispy Chicken Chilli", "hi": "क्रिस्पी चिकन चिल्ली" },
+  "price": 190,
+  "image": "",
+  "description": "Extra crispy chicken pieces tossed with chili sauce.",
+  "about": { "en": "Deep-fried chicken cubes cooked with bell peppers, onions, and spicy chili sauce.", "hi": "गहरी तली हुई चिकन के टुकड़े शिमला मिर्च, प्याज और मसालेदार चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Chicken", "Capsicum", "Onion", "Chili Sauce"], "hi": ["चिकन", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken Albela (10 pcs)", "hi": "चिकन अल्बेला (१० पीस)" },
+  "price": 200,
+  "image": "",
+  "description": "Chicken cooked in a tangy and spicy sauce.",
+  "about": { "en": "Tender chicken pieces sautéed in flavorful sauce with vegetables.", "hi": "नरम चिकन के टुकड़े स्वादिष्ट सॉस और सब्ज़ियों में।" },
+  "ingredients": { "en": ["Chicken", "Capsicum", "Onion", "Spicy Sauce"], "hi": ["चिकन", "शिमला मिर्च", "प्याज", "मसालेदार सॉस"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken Dry Fry (10 pcs)", "hi": "चिकन ड्राय फ्राय (१० पीस)" },
+  "price": 190,
+  "image": "",
+  "description": "Dry-fried chicken with spices and vegetables.",
+  "about": { "en": "Crispy chicken cooked with peppers, onions, and light seasoning.", "hi": "कुरकुरा चिकन शिमला मिर्च, प्याज और हल्के मसाले में।" },
+  "ingredients": { "en": ["Chicken", "Capsicum", "Onion", "Spices"], "hi": ["चिकन", "शिमला मिर्च", "प्याज", "मसाले"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Chicken Pakoda (10 pcs)", "hi": "चिकन पकोड़ा (१० पीस)" },
+  "price": 180,
+  "image": "",
+  "description": "Deep-fried chicken fritters with spices.",
+  "about": { "en": "Chicken pieces coated in spiced chickpea flour and fried to crisp.", "hi": "चिकन के टुकड़े बेसन और मसालों में लिपटे और कुरकुरे तले हुए।" },
+  "ingredients": { "en": ["Chicken", "Chickpea Flour", "Spices"], "hi": ["चिकन", "बेसन", "मसाले"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Egg Pakoda (8 pcs)", "hi": "एग पकोड़ा (८ पीस)" },
+  "price": 150,
+  "image": "",
+  "description": "Deep-fried egg fritters with spices.",
+  "about": { "en": "Boiled eggs coated in spiced chickpea flour and fried.", "hi": "उबले अंडे बेसन और मसालों में लिपटे और तले हुए।" },
+  "ingredients": { "en": ["Egg", "Chickpea Flour", "Spices"], "hi": ["अंडा", "बेसन", "मसाले"] }
+},
+{
+  "type": "Non-Veg Starter",
+  "name": { "en": "Egg Chilli (8 pcs)", "hi": "एग चिल्ली (८ पीस)" },
+  "price": 170,
+  "image": "",
+  "description": "Boiled eggs stir-fried with chili sauce and vegetables.",
+  "about": { "en": "Eggs sautéed with bell peppers, onions, and spicy chili sauce.", "hi": "अंडे शिमला मिर्च, प्याज और मसालेदार चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Egg", "Capsicum", "Onion", "Chili Sauce"], "hi": ["अंडा", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+
+
+    {
+  "type": "Veg Starter",
+  "name": { "en": "Paneer Chilli", "hi": "पनीर चिल्ली" },
+  "price": 200,
+  "image": "",
+  "description": "Spicy paneer cubes tossed with bell peppers and onions.",
+  "about": { "en": "Soft paneer pieces cooked in a spicy chili sauce.", "hi": "नरम पनीर के टुकड़े मसालेदार चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Paneer", "Capsicum", "Onion", "Chili Sauce"], "hi": ["पनीर", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Paneer 65", "hi": "पनीर ६५" },
+  "price": 190,
+  "image": "",
+  "description": "Crispy deep-fried paneer cubes in spicy coating.",
+  "about": { "en": "Paneer marinated with spices and fried to perfection.", "hi": "मसालों में मैरीनेट किए हुए कुरकुरे पनीर के टुकड़े।" },
+  "ingredients": { "en": ["Paneer", "Spices", "Flour"], "hi": ["पनीर", "मसाले", "आटा"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Baby Corn Chilli", "hi": "बेबी कॉर्न चिल्ली" },
+  "price": 180,
+  "image": "",
+  "description": "Baby corn stir-fried with chili sauce and vegetables.",
+  "about": { "en": "Crispy baby corn tossed with bell peppers and onions.", "hi": "कुरकुरी बेबी कॉर्न शिमला मिर्च और प्याज के साथ।" },
+  "ingredients": { "en": ["Baby Corn", "Capsicum", "Onion", "Chili Sauce"], "hi": ["बेबी कॉर्न", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Crispy Baby Corn Chilli", "hi": "क्रिस्पी बेबी कॉर्न चिल्ली" },
+  "price": 190,
+  "image": "",
+  "description": "Extra crispy baby corn in spicy chili sauce.",
+  "about": { "en": "Deep-fried baby corn tossed with chili sauce and vegetables.", "hi": "गहरी तली हुई बेबी कॉर्न मसालेदार चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Baby Corn", "Capsicum", "Onion", "Chili Sauce"], "hi": ["बेबी कॉर्न", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Mushroom Chilli", "hi": "मशरूम चिल्ली" },
+  "price": 190,
+  "image": "",
+  "description": "Mushrooms stir-fried with chili sauce and vegetables.",
+  "about": { "en": "Tender mushrooms cooked in chili sauce with bell peppers.", "hi": "नरम मशरूम शिमला मिर्च और चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Mushroom", "Capsicum", "Onion", "Chili Sauce"], "hi": ["मशरूम", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Corn Chilli", "hi": "कॉर्न चिल्ली" },
+  "price": 170,
+  "image": "",
+  "description": "Sweet corn tossed with bell peppers in chili sauce.",
+  "about": { "en": "Crispy corn cooked with vegetables and chili sauce.", "hi": "कुरकुरी कॉर्न सब्ज़ियों और चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Corn", "Capsicum", "Onion", "Chili Sauce"], "hi": ["कॉर्न", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "American Corn Salt Pepper", "hi": "अमेरिकन कॉर्न सॉल्ट पेपर" },
+  "price": 180,
+  "image": "",
+  "description": "Crispy corn stir-fried with salt and pepper.",
+  "about": { "en": "Baby corn cooked with mild seasoning and bell peppers.", "hi": "बेबी कॉर्न हल्के मसाले और शिमला मिर्च के साथ।" },
+  "ingredients": { "en": ["Corn", "Capsicum", "Salt", "Pepper"], "hi": ["कॉर्न", "शिमला मिर्च", "नमक", "काली मिर्च"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Potato Chilli (Crispy)", "hi": "आलू चिल्ली (क्रिस्पी)" },
+  "price": 160,
+  "image": "",
+  "description": "Crispy potato cubes stir-fried with chili sauce.",
+  "about": { "en": "Deep-fried potato with bell peppers and onions in spicy sauce.", "hi": "गहरी तली हुई आलू शिमला मिर्च और प्याज के साथ मसालेदार सॉस में।" },
+  "ingredients": { "en": ["Potato", "Capsicum", "Onion", "Chili Sauce"], "hi": ["आलू", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Mix Veg Chilli", "hi": "मिक्स वेज चिल्ली" },
+  "price": 190,
+  "image": "",
+  "description": "Mixed vegetables cooked in spicy chili sauce.",
+  "about": { "en": "Variety of vegetables stir-fried in chili sauce.", "hi": "कुरकुरी सब्ज़ियां मसालेदार चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Carrot", "Capsicum", "Beans", "Onion", "Chili Sauce"], "hi": ["गाजर", "शिमला मिर्च", "बीन्स", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Mushroom Baby Corn Chilli", "hi": "मशरूम बेबी कॉर्न चिल्ली" },
+  "price": 190,
+  "image": "",
+  "description": "Mushroom and baby corn stir-fried with chili sauce.",
+  "about": { "en": "Tender mushrooms and baby corn cooked in spicy sauce.", "hi": "नरम मशरूम और बेबी कॉर्न मसालेदार चिल्ली सॉस में।" },
+  "ingredients": { "en": ["Mushroom", "Baby Corn", "Capsicum", "Onion", "Chili Sauce"], "hi": ["मशरूम", "बेबी कॉर्न", "शिमला मिर्च", "प्याज", "चिल्ली सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Veg Manchurian (10 pcs)", "hi": "वेज़ मंचूरियन (१० पीस)" },
+  "price": 150,
+  "image": "",
+  "description": "Crispy vegetable balls in Manchurian sauce.",
+  "about": { "en": "Vegetable balls deep-fried and tossed in tangy Manchurian sauce.", "hi": "कुरकुरे वेज बॉल्स तीखी मंचूरियन सॉस में।" },
+  "ingredients": { "en": ["Cabbage", "Carrot", "Capsicum", "Flour", "Manchurian Sauce"], "hi": ["पत्ता गोभी", "गाजर", "शिमला मिर्च", "आटा", "मंचूरियन सॉस"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Paneer Salt Pepper", "hi": "पनीर सॉल्ट पेपर" },
+  "price": 180,
+  "image": "",
+  "description": "Crispy paneer cubes stir-fried with salt and pepper.",
+  "about": { "en": "Paneer cooked with bell peppers, onions, salt, and pepper.", "hi": "पनीर शिमला मिर्च, प्याज, नमक और काली मिर्च के साथ।" },
+  "ingredients": { "en": ["Paneer", "Capsicum", "Onion", "Salt", "Pepper"], "hi": ["पनीर", "शिमला मिर्च", "प्याज", "नमक", "काली मिर्च"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Mushroom Salt Pepper", "hi": "मशरूम सॉल्ट पेपर" },
+  "price": 180,
+  "image": "",
+  "description": "Mushrooms stir-fried with salt, pepper, and vegetables.",
+  "about": { "en": "Tender mushrooms cooked with capsicum, onion, salt, and pepper.", "hi": "नरम मशरूम शिमला मिर्च, प्याज, नमक और काली मिर्च के साथ।" },
+  "ingredients": { "en": ["Mushroom", "Capsicum", "Onion", "Salt", "Pepper"], "hi": ["मशरूम", "शिमला मिर्च", "प्याज", "नमक", "काली मिर्च"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Baby Corn Salt Pepper", "hi": "बेबी कॉर्न सॉल्ट पेपर" },
+  "price": 170,
+  "image": "",
+  "description": "Baby corn stir-fried with salt, pepper, and vegetables.",
+  "about": { "en": "Crispy baby corn with capsicum and onion, lightly seasoned.", "hi": "कुरकुरी बेबी कॉर्न शिमला मिर्च और प्याज के साथ हल्के मसाले में।" },
+  "ingredients": { "en": ["Baby Corn", "Capsicum", "Onion", "Salt", "Pepper"], "hi": ["बेबी कॉर्न", "शिमला मिर्च", "प्याज", "नमक", "काली मिर्च"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Paneer Pakoda", "hi": "पनीर पकोड़ा" },
+  "price": 170,
+  "image": "",
+  "description": "Deep-fried paneer fritters with spices.",
+  "about": { "en": "Paneer coated in spiced chickpea flour and fried until golden.", "hi": "पनीर बेसन और मसालों में लिपटा और सुनहरा तला हुआ।" },
+  "ingredients": { "en": ["Paneer", "Chickpea Flour", "Spices"], "hi": ["पनीर", "बेसन", "मसाले"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Veg Pakoda", "hi": "वेज़ पकोड़ा" },
+  "price": 160,
+  "image": "",
+  "description": "Deep-fried mixed vegetable fritters.",
+  "about": { "en": "Mixed vegetables coated in chickpea flour and fried to crisp.", "hi": "मिक्स सब्ज़ियां बेसन में लिपटी और कुरकुरी तली हुई।" },
+  "ingredients": { "en": ["Carrot", "Cabbage", "Beans", "Chickpea Flour", "Spices"], "hi": ["गाजर", "पत्ता गोभी", "बीन्स", "बेसन", "मसाले"] }
+},
+{
+  "type": "Veg Starter",
+  "name": { "en": "Onion Pakoda", "hi": "प्याज पकोड़ा" },
+  "price": 150,
+  "image": "",
+  "description": "Crispy deep-fried onion fritters.",
+  "about": { "en": "Sliced onions coated in spiced chickpea flour and fried.", "hi": "कटी हुई प्याज बेसन और मसालों में लिपटी और तली हुई।" },
+  "ingredients": { "en": ["Onion", "Chickpea Flour", "Spices"], "hi": ["प्याज", "बेसन", "मसाले"] }
+},
+
+
+
+    {
+  "type": "Rice",
+  "name": { "en": "Veg Fry Rice", "hi": "वेज़ फ्राय राइस" },
+  "price": 160,
+  "image": "",
+  "description": "Flavored stir-fried rice with fresh vegetables.",
+  "about": { "en": "Rice cooked with colorful vegetables and light spices.", "hi": "ताज़ी सब्ज़ियों और हल्के मसालों के साथ पकाया गया चावल।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Capsicum", "Beans", "Soy Sauce"], "hi": ["चावल", "गाजर", "शिमला मिर्च", "बीन्स", "सोया सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Paneer Fry Rice", "hi": "पनीर फ्राय राइस" },
+  "price": 180,
+  "image": "",
+  "description": "Stir-fried rice with soft paneer cubes and vegetables.",
+  "about": { "en": "Rice cooked with cottage cheese and fresh vegetables.", "hi": "पनीर और ताज़ी सब्ज़ियों के साथ पकाया गया चावल।" },
+  "ingredients": { "en": ["Rice", "Paneer", "Carrot", "Capsicum", "Beans", "Soy Sauce"], "hi": ["चावल", "पनीर", "गाजर", "शिमला मिर्च", "बीन्स", "सोया सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Mix Veg Rice", "hi": "मिक्स वेज राइस" },
+  "price": 180,
+  "image": "",
+  "description": "Rice cooked with a medley of fresh vegetables.",
+  "about": { "en": "Healthy and colorful mixed vegetable rice.", "hi": "स्वस्थ और रंग-बिरंगी सब्ज़ियों के साथ चावल।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Capsicum", "Beans", "Cabbage", "Corn"], "hi": ["चावल", "गाजर", "शिमला मिर्च", "बीन्स", "पत्ता गोभी", "मकई"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Schezwan Fry Rice", "hi": "शेज़वान फ्राय राइस" },
+  "price": 170,
+  "image": "",
+  "description": "Spicy stir-fried rice with Schezwan sauce.",
+  "about": { "en": "Rice tossed with vegetables and fiery Schezwan sauce.", "hi": "सब्ज़ियों और तीखी शेज़वान सॉस के साथ तला हुआ चावल।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Capsicum", "Cabbage", "Schezwan Sauce"], "hi": ["चावल", "गाजर", "शिमला मिर्च", "पत्ता गोभी", "शेज़वान सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Singapuri Fry Rice", "hi": "सिंगापुरी फ्राय राइस" },
+  "price": 170,
+  "image": "",
+  "description": "Lightly spiced rice with vegetables, Singapore style.",
+  "about": { "en": "Flavorful rice cooked with vegetables and mild curry spices.", "hi": "सब्ज़ियों और हल्के करी मसालों के साथ स्वादिष्ट चावल।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Capsicum", "Cabbage", "Beans", "Curry Powder"], "hi": ["चावल", "गाजर", "शिमला मिर्च", "पत्ता गोभी", "बीन्स", "करी पाउडर"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Chicken Fry Rice", "hi": "चिकन फ्राय राइस" },
+  "price": 170,
+  "image": "",
+  "description": "Rice stir-fried with tender chicken pieces and vegetables.",
+  "about": { "en": "Juicy chicken chunks mixed with fried rice and vegetables.", "hi": "रसदार चिकन के टुकड़े तले हुए चावल और सब्ज़ियों के साथ।" },
+  "ingredients": { "en": ["Rice", "Chicken", "Carrot", "Capsicum", "Cabbage", "Soy Sauce"], "hi": ["चावल", "चिकन", "गाजर", "शिमला मिर्च", "पत्ता गोभी", "सोया सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Mix Chicken Fry Rice", "hi": "मिक्स चिकन फ्राय राइस" },
+  "price": 180,
+  "image": "",
+  "description": "Combination of chicken and vegetables in fried rice.",
+  "about": { "en": "Rice cooked with chicken pieces and fresh vegetables.", "hi": "चिकन और ताज़ी सब्ज़ियों के साथ तला हुआ चावल।" },
+  "ingredients": { "en": ["Rice", "Chicken", "Carrot", "Capsicum", "Cabbage", "Beans", "Soy Sauce"], "hi": ["चावल", "चिकन", "गाजर", "शिमला मिर्च", "पत्ता गोभी", "बीन्स", "सोया सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Egg Fry Rice", "hi": "एग फ्राय राइस" },
+  "price": 170,
+  "image": "",
+  "description": "Fried rice with scrambled eggs and vegetables.",
+  "about": { "en": "Soft fried rice mixed with eggs and vegetables.", "hi": "नरम तले हुए चावल अंडे और सब्ज़ियों के साथ।" },
+  "ingredients": { "en": ["Rice", "Eggs", "Carrot", "Capsicum", "Cabbage", "Soy Sauce"], "hi": ["चावल", "अंडे", "गाजर", "शिमला मिर्च", "पत्ता गोभी", "सोया सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Triple Fry Rice", "hi": "ट्रिपल फ्राय राइस" },
+  "price": 180,
+  "image": "",
+  "description": "A special combination of three types of fried rice.",
+  "about": { "en": "Mix of vegetable, egg, and chicken fried rice.", "hi": "सब्ज़ी, अंडा और चिकन फ्राय राइस का मिश्रण।" },
+  "ingredients": { "en": ["Rice", "Vegetables", "Eggs", "Chicken", "Soy Sauce"], "hi": ["चावल", "सब्ज़ियां", "अंडे", "चिकन", "सोया सॉस"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Veg Pulao", "hi": "वेज़ पुलाव" },
+  "price": 160,
+  "image": "",
+  "description": "Fragrant basmati rice with fresh vegetables.",
+  "about": { "en": "Rice cooked with aromatic spices and vegetables.", "hi": "सुगंधित मसालों और सब्ज़ियों के साथ चावल।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Beans", "Peas", "Spices"], "hi": ["चावल", "गाजर", "बीन्स", "मटर", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Mix Veg Pulao", "hi": "मिक्स वेज पुलाव" },
+  "price": 180,
+  "image": "",
+  "description": "Basmati rice with a mix of colorful vegetables.",
+  "about": { "en": "A healthy medley of vegetables cooked with fragrant rice.", "hi": "सुगंधित चावल के साथ ताज़ी सब्ज़ियों का मिश्रण।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Beans", "Peas", "Cabbage", "Spices"], "hi": ["चावल", "गाजर", "बीन्स", "मटर", "पत्ता गोभी", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Navaratna Pulao", "hi": "नवरत्न पुलाव" },
+  "price": 180,
+  "image": "",
+  "description": "Basmati rice with nine different vegetables and nuts.",
+  "about": { "en": "A royal mix of vegetables and nuts cooked with aromatic rice.", "hi": "सुगंधित चावल के साथ सब्ज़ियों और मेवों का शाही मिश्रण।" },
+  "ingredients": { "en": ["Rice", "Carrot", "Beans", "Peas", "Capsicum", "Nuts", "Spices"], "hi": ["चावल", "गाजर", "बीन्स", "मटर", "शिमला मिर्च", "मेवे", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Kashmiri Pulao", "hi": "कश्मीरी पुलाव" },
+  "price": 170,
+  "image": "",
+  "description": "Fragrant rice with dry fruits and mild spices.",
+  "about": { "en": "Basmati rice cooked with saffron, dry fruits, and aromatic spices.", "hi": "केसर, मेवे और सुगंधित मसालों के साथ पकाया गया बासमती चावल।" },
+  "ingredients": { "en": ["Rice", "Dry Fruits", "Saffron", "Spices"], "hi": ["चावल", "मेवे", "केसर", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Paneer Pulao", "hi": "पनीर पुलाव" },
+  "price": 170,
+  "image": "",
+  "description": "Fragrant rice with soft paneer cubes.",
+  "about": { "en": "Basmati rice cooked with cottage cheese and mild spices.", "hi": "पनीर और हल्के मसालों के साथ पकाया गया बासमती चावल।" },
+  "ingredients": { "en": ["Rice", "Paneer", "Spices"], "hi": ["चावल", "पनीर", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Green Peas Pulao", "hi": "हरी मटर पुलाव" },
+  "price": 160,
+  "image": "",
+  "description": "Basmati rice cooked with fresh green peas.",
+  "about": { "en": "Simple and healthy rice with green peas and spices.", "hi": "हरी मटर और मसालों के साथ सरल और स्वस्थ चावल।" },
+  "ingredients": { "en": ["Rice", "Green Peas", "Spices"], "hi": ["चावल", "हरी मटर", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Jeera Rice", "hi": "जीरा राइस" },
+  "price": 120,
+  "image": "",
+  "description": "Basmati rice flavored with cumin seeds.",
+  "about": { "en": "Aromatic rice lightly tempered with cumin seeds.", "hi": "जीरा के साथ हल्का मसालेदार सुगंधित चावल।" },
+  "ingredients": { "en": ["Rice", "Cumin Seeds", "Spices"], "hi": ["चावल", "जीरा", "मसाले"] }
+},
+{
+  "type": "Rice",
+  "name": { "en": "Steam Rice", "hi": "स्टीम राइस" },
+  "price": 100,
+  "image": "",
+  "description": "Plain steamed basmati rice.",
+  "about": { "en": "Soft and fluffy steamed rice.", "hi": "नरम और फुली हुई स्टीम्ड चावल।" },
+  "ingredients": { "en": ["Rice"], "hi": ["चावल"] }
+},
+
+
+     {
+      "type": "Noodle bowl",
+      "name": { "en": "Veg Noodles", "hi": "वेज़ नूडल्स" },
+      "price": 140,
+      "image": "",
+      "description": "Delicious stir-fried noodles with fresh vegetables.",
+      "about": { "en": "A healthy mix of colorful vegetables tossed with noodles.", "hi": "ताज़ी सब्ज़ियों के साथ स्वादिष्ट नूडल्स।" },
+      "ingredients": { "en": ["Noodles", "Cabbage", "Carrot", "Capsicum", "Soy Sauce"], "hi": ["नूडल्स", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "सोया सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Paneer Noodles", "hi": "पनीर नूडल्स" },
+      "price": 170,
+      "image": "",
+      "description": "Soft paneer cubes with stir-fried noodles and veggies.",
+      "about": { "en": "Cottage cheese cubes mixed with fresh vegetables and noodles.", "hi": "पनीर के टुकड़े ताज़ी सब्ज़ियों और नूडल्स के साथ।" },
+      "ingredients": { "en": ["Noodles", "Paneer", "Capsicum", "Carrot", "Soy Sauce"], "hi": ["नूडल्स", "पनीर", "शिमला मिर्च", "गाजर", "सोया सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Singapore Noodles", "hi": "सिंगापुर नूडल्स" },
+      "price": 160,
+      "image": "",
+      "description": "Spicy stir-fried noodles with veggies and curry flavor.",
+      "about": { "en": "Lightly spiced noodles with a hint of curry, loaded with vegetables.", "hi": "हल्का मसालेदार नूडल्स करी के स्वाद के साथ, सब्ज़ियों से भरा।" },
+      "ingredients": { "en": ["Noodles", "Carrot", "Cabbage", "Capsicum", "Curry Powder"], "hi": ["नूडल्स", "गाजर", "पत्ता गोभी", "शिमला मिर्च", "करी पाउडर"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Schezwan Noodles", "hi": "शेज़वान नूडल्स" },
+      "price": 160,
+      "image": "",
+      "description": "Hot and spicy noodles with Schezwan sauce.",
+      "about": { "en": "Noodles tossed with fiery Schezwan sauce and fresh vegetables.", "hi": "ताज़ी सब्ज़ियों और तीखी शेज़वान सॉस के साथ नूडल्स।" },
+      "ingredients": { "en": ["Noodles", "Cabbage", "Carrot", "Capsicum", "Schezwan Sauce"], "hi": ["नूडल्स", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "शेज़वान सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Mix Veg Noodles", "hi": "मिक्स वेज नूडल्स" },
+      "price": 170,
+      "image": "",
+      "description": "A colorful mix of vegetables with stir-fried noodles.",
+      "about": { "en": "Noodles cooked with a medley of fresh vegetables.", "hi": "ताज़ी सब्ज़ियों के मिश्रण के साथ नूडल्स।" },
+      "ingredients": { "en": ["Noodles", "Cabbage", "Carrot", "Capsicum", "Beans", "Soy Sauce"], "hi": ["नूडल्स", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "बीन्स", "सोया सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Hakka Noodles", "hi": "हक्का नूडल्स" },
+      "price": 170,
+      "image": "",
+      "description": "Classic Hakka style noodles with vegetables.",
+      "about": { "en": "Soft noodles stir-fried with vegetables in Hakka style.", "hi": "सब्ज़ियों के साथ हक्का स्टाइल में तले हुए नूडल्स।" },
+      "ingredients": { "en": ["Noodles", "Cabbage", "Carrot", "Capsicum", "Spring Onion", "Soy Sauce"], "hi": ["नूडल्स", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "हरी प्याज", "सोया सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Chicken Noodles", "hi": "चिकन नूडल्स" },
+      "price": 160,
+      "image": "",
+      "description": "Tender chicken pieces with stir-fried noodles and vegetables.",
+      "about": { "en": "Juicy chicken chunks mixed with vegetables and noodles.", "hi": "रसदार चिकन टुकड़े सब्ज़ियों और नूडल्स के साथ।" },
+      "ingredients": { "en": ["Noodles", "Chicken", "Cabbage", "Carrot", "Capsicum", "Soy Sauce"], "hi": ["नूडल्स", "चिकन", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "सोया सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Mix Chicken Noodles", "hi": "मिक्स चिकन नूडल्स" },
+      "price": 180,
+      "image": "",
+      "description": "Combination of chicken and vegetables in stir-fried noodles.",
+      "about": { "en": "Noodles cooked with a mix of chicken and fresh vegetables.", "hi": "चिकन और ताज़ी सब्ज़ियों के मिश्रण के साथ नूडल्स।" },
+      "ingredients": { "en": ["Noodles", "Chicken", "Cabbage", "Carrot", "Capsicum", "Beans", "Soy Sauce"], "hi": ["नूडल्स", "चिकन", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "बीन्स", "सोया सॉस"] }
+    },
+    {
+      "type": "Noodle bowl",
+      "name": { "en": "Egg Noodles", "hi": "एग नूडल्स" },
+      "price": 150,
+      "image": "",
+      "description": "Noodles tossed with scrambled eggs and vegetables.",
+      "about": { "en": "Soft noodles mixed with eggs and fresh vegetables.", "hi": "नरम नूडल्स अंडे और ताज़ी सब्ज़ियों के साथ।" },
+      "ingredients": { "en": ["Noodles", "Eggs", "Cabbage", "Carrot", "Capsicum", "Soy Sauce"], "hi": ["नूडल्स", "अंडे", "पत्ता गोभी", "गाजर", "शिमला मिर्च", "सोया सॉस"] }
+    },
+    
     {
       "type": "starters",
       "name": { "en": "Paneer Tikka", "hi": "पनीर टिक्का" },
