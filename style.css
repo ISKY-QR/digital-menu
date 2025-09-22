@@ -221,8 +221,44 @@ header h1 {
   margin: 35px 0 12px 0;
 }
 
-/* Footer */
+/* ===== Sticky footer layout ===== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* make the page a column flex container so footer can be pushed down */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* keep your existing background; if you re-declare it here, keep same value */
+  /* background: repeating-linear-gradient(...); */
+  box-sizing: border-box;
+}
+
+/* allow main views to take available space so footer sits at bottom */
+.landing-screen,
+.menu-book {
+  flex: 1 0 auto;            /* grow/shrink, but don't force footer offscreen */
+  box-sizing: border-box;
+}
+
+
+/* Landing screen: center content and prevent it from causing page scroll */
+.landing-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;             /* keep your padding, box-sizing avoids overflow */
+  overflow: hidden;          /* prevent landing screen itself from producing scrollbars */
+  text-align: center;
+}
+
+/* ===== Footer (sticky at bottom when content short) ===== */
 .site-footer {
+  margin-top: auto;          /* pushes footer to bottom in a column flex layout */
   background: #e2c799;
   color: #5a4422;
   text-align: center;
@@ -230,18 +266,16 @@ header h1 {
   border-top: 3px solid #bfa570;
   font-family: 'Georgia', serif;
   font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+  /* position: static / relative is default — do not use fixed if you want sticky behavior */
 }
-
 .site-footer a {
   color: #5a4422;
   text-decoration: none;
   font-weight: 600;
 }
 
-.site-footer a:hover {
-  text-decoration: underline;
-  color: #8c6521;
-}
 
 .contact-info {
   margin-top: 8px;
@@ -257,7 +291,7 @@ header h1 {
 
 /* Landing screen styles (new small additions) */
 .landing-screen {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -300,21 +334,46 @@ header h1 {
   transform: translateY(0);
 }
 
-
+/* ===== Lively Blinking / Colorful Button ===== */
 .btn-primary {
   margin-top: 12px;
-  padding: 10px 18px;
-  background: #a8772a;
-  color: #fff;
+  padding: 14px 28px;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
   cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(270deg, #ff4c2c, #ffbe0b, #3a86ff, #8338ec, #ff006e);
+  background-size: 1000% 1000%;
+  animation: colorFlow 5s linear infinite, glowPulse 1.5s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s ease;
 }
 
 .btn-primary:hover {
-  background: #8c6521;
+  transform: scale(1.1) rotate(-1deg);
 }
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* Smooth rainbow movement */
+@keyframes colorFlow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Soft glowing pulse */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 15px rgba(255,255,255,0.3); }
+  50%      { box-shadow: 0 0 35px rgba(255,255,255,0.7); }
+}
+
 
 /* small screens tweaks */
 @media (max-width: 490px) {
