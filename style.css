@@ -301,7 +301,7 @@ body {
 }
 
 .landing-screen img#landingLogo {
-  max-width: 160px;
+  max-width: 200px;
   height: auto;
   margin-bottom: 18px;
   border-radius: 12px;
@@ -360,6 +360,24 @@ body {
 .btn-primary:active {
   transform: scale(0.98);
 }
+
+
+#landingTitle {
+  font-family: 'Playfair Display', 'Georgia', serif; /* Elegant font */
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #5a3d1e;               /* Warm premium brown */
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+
+  /* Subtle shadow for depth */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+
+  /* Optional spacing */
+  margin-top: 18px;
+}
+
 
 /* Smooth rainbow movement */
 @keyframes colorFlow {
