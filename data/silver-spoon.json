@@ -10,19 +10,19 @@
     { "key": "Veg Starter", "titleEn": "Veg Starter", "titleHi": "वेजस्टार्टर" },
     { "key": "Non-Veg Starter", "titleEn": "Non-Veg Starter", "titleHi": "नॉन-वेज स्टार्टर" },
     { "key": "Roti Naan", "titleEn": "Roti Naan", "titleHi": "रोटी नान" },
-    { "key": "Main Course Veg", "titleEn": "Main Course Veg", "titleHi": "मेन कोर्स Veg" },
+    { "key": "Main Course Veg", "titleEn": "Main Course Veg", "titleHi": "मेन कोर्स वेज" },
     { "key": "Dal", "titleEn": "Dal", "titleHi": "दाल" },
     { "key": "Drinks", "titleEn": "Drinks", "titleHi": "Drinks" },
     { "key": "Dairy Drinks", "titleEn": "Dairy Drinks", "titleHi": "डेयरी Drinks" },
-    { "key": "Veg Tandoori", "titleEn": "DrVeg Tandooriinks", "titleHi": "Veg Tandoori" },
-    { "key": "Non Veg Kabab", "titleEn": "Non Veg Kabab", "titleHi": "Non Veg Kabab" },
-    { "key": "Non Veg menu", "titleEn": "Non Veg menu", "titleHi": "Non Veg menu" },
-    { "key": "Veg Biryani", "titleEn": "Veg Biryani", "titleHi": "Veg Biryani" },
-    { "key": "Non Veg Biryani", "titleEn": "DrNon Veg Biryaniinks", "titleHi": "Non Veg Biryani" },
-    { "key": "Salad", "titleEn": "Salad", "titleHi": "Salad" },
-    { "key": "Papad", "titleEn": "Papad", "titleHi": "Papad" },
-    { "key": "Veg Soup", "titleEn": "PaVeg Souppad", "titleHi": "Veg Soup" },
-    { "key": "Non Veg Soup", "titleEn": "Non Veg Soup", "titleHi": "Non Veg Soup" }
+    { "key": "Veg Tandoori", "titleEn": "Veg Tandoori", "titleHi": "वेज तंदूरी" },
+    { "key": "Non Veg Kabab", "titleEn": "Non Veg Kabab", "titleHi": "नॉन वेज कबाब" },
+    { "key": "Non Veg menu", "titleEn": "Non Veg menu", "titleHi": "नॉन वेज मेनू" },
+    { "key": "Veg Biryani", "titleEn": "Veg Biryani", "titleHi": "वेज बिरयानी" },
+    { "key": "Non Veg Biryani", "titleEn": "Non Veg Biryani", "titleHi": "नॉन वेज बिरयानी" },
+    { "key": "Salad", "titleEn": "Salad", "titleHi": "सलाद" },
+    { "key": "Papad", "titleEn": "Papad", "titleHi": "पापड़" },
+    { "key": "Veg Soup", "titleEn": "Veg Soup", "titleHi": "वेज सूप" },
+    { "key": "Non Veg Soup", "titleEn": "Non Veg Soup", "titleHi": "नॉन वेज सूप" }
   ],
 
   "items": [
@@ -211,7 +211,7 @@
     {
   "type": "Non Veg Biryani",
   "name": { "en": "Non Veg Biryani (9 Pieces)", "hi": "चिकन बिरयानी (9 पीस)" },
-  "price": { "full": 220, "half": 130 },
+  "price": "220/130",
   "image": "",
   "description": "Aromatic basmati rice cooked with tender chicken pieces and spices.",
   "about": { "en": "Chicken and rice layered with Indian spices for rich flavor.", "hi": "मसालेदार चिकन और चावल की परत वाली स्वादिष्ट बिरयानी।" },
@@ -220,7 +220,7 @@
 {
   "type": "Non Veg Biryani",
   "name": { "en": "Chicken Hyderabadi Biryani", "hi": "चिकन हैदराबादी बिरयानी" },
-  "price": { "full": 240, "half": 130 },
+  "price": "240/130",
   "image": "",
   "description": "Spiced Non Veg Biryani cooked in authentic Hyderabadi style with saffron aroma.",
   "about": { "en": "Juicy chicken pieces layered with aromatic basmati rice and traditional Hyderabadi spices.", "hi": "रसदार चिकन और खुशबूदार बासमती चावल के साथ पारंपरिक हैदराबादी मसालों में पकाई गई बिरयानी।" },
@@ -229,7 +229,7 @@
 {
   "type": "Non Veg Biryani",
   "name": { "en": "Egg Biryani", "hi": "अंडा बिरयानी" },
-  "price": { "full": 180, "half": 120 },
+  "price": "180/120",
   "image": "",
   "description": "Basmati rice cooked with boiled eggs and aromatic spices.",
   "about": { "en": "Spiced rice with boiled eggs and fragrant herbs.", "hi": "मसालेदार चावल और उबले अंडों के साथ खुशबूदार बिरयानी।" },
@@ -240,7 +240,7 @@
     {
   "type": "Veg Biryani",
   "name": { "en": "Veg Veg Biryani", "hi": "वेज बिरयानी" },
-  "price": { "full": 180, "half": 120 },
+  "price": "180/120",
   "image": "",
   "description": "Aromatic basmati rice cooked with fresh vegetables and Indian spices.",
   "about": { "en": "Flavorful vegetable Veg Biryani with layers of spiced rice and veggies.", "hi": "मसालेदार चावल और सब्जियों की परतों के साथ स्वादिष्ट वेज बिरयानी।" },
@@ -249,7 +249,7 @@
 {
   "type": "Veg Biryani",
   "name": { "en": "Paneer Veg Biryani", "hi": "पनीर बिरयानी" },
-  "price": { "full": 200, "half": 120 },
+  "price": "200/120",
   "image": "",
   "description": "Basmati rice layered with spiced paneer cubes and aromatic herbs.",
   "about": { "en": "Soft paneer cooked with flavorful spices and layered with rice.", "hi": "मसालेदार पनीर और खुशबूदार चावल के साथ तैयार स्वादिष्ट बिरयानी।" },
@@ -258,7 +258,7 @@
 {
   "type": "Veg Biryani",
   "name": { "en": "Paneer Mushroom Veg Biryani", "hi": "पनीर मशरूम बिरयानी" },
-  "price": { "full": 220, "half": 130 },
+  "price": "220/130",
   "image": "",
   "description": "Veg Biryani with cubes of paneer and mushrooms cooked with fragrant spices.",
   "about": { "en": "Soft paneer and mushrooms layered with spiced basmati rice.", "hi": "मसालेदार बासमती चावल में पनीर और मशरूम की परत।" },
@@ -267,7 +267,7 @@
 {
   "type": "Veg Biryani",
   "name": { "en": "Veg Hyderabadi Veg Biryani", "hi": "वेज हैदराबादी बिरयानी" },
-  "price": { "full": 220, "half": 130 },
+  "price": "220/130",
   "image": "",
   "description": "Authentic Hyderabadi style vegetable Veg Biryani with saffron aroma.",
   "about": { "en": "Spiced vegetables and basmati rice cooked in traditional Hyderabadi style.", "hi": "पारंपरिक हैदराबादी शैली में मसालेदार सब्जियों और बासमती चावल की बिरयानी।" },
@@ -278,7 +278,7 @@
     {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Curry (4 Pieces)", "hi": "चिकन करी (4 पीस)" },
-  "price": { "full": 300, "half": 180 },
+  "price": "300/180",
   "image": "",
   "description": "Classic chicken curry cooked with aromatic spices and gravy.",
   "about": { "en": "Tender chicken pieces simmered in a spiced onion-tomato gravy.", "hi": "मसालेदार प्याज-टमाटर ग्रेवी में पकाए गए मुलायम चिकन के टुकड़े।" },
@@ -287,7 +287,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Masala (4 Pieces)", "hi": "चिकन मसाला (4 पीस)" },
-  "price": { "full": 320, "half": 190 },
+  "price": "320/190",
   "image": "",
   "description": "Chicken cooked in a rich, spicy masala gravy.",
   "about": { "en": "Juicy chicken pieces simmered in flavorful Indian masala.", "hi": "स्वादिष्ट भारतीय मसाले में पकाए गए रसदार चिकन के टुकड़े।" },
@@ -296,7 +296,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Kadhi (4 Pieces)", "hi": "चिकन कढ़ी (4 पीस)" },
-  "price": { "full": 350, "half": 200 },
+  "price": "350/200",
   "image": "",
   "description": "Chicken cooked in a tangy yogurt-based curry.",
   "about": { "en": "Soft chicken pieces in a spiced yogurt and gram flour gravy.", "hi": "मसालेदार दही और बेसन की ग्रेवी में पकाए गए चिकन के कोमल टुकड़े।" },
@@ -305,7 +305,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Handi (4 Pieces)", "hi": "चिकन हांडी (4 पीस)" },
-  "price": { "full": 350, "half": 200 },
+  "price": "350/200",
   "image": "",
   "description": "Rich chicken curry slow-cooked in a handi with spices.",
   "about": { "en": "Tender chicken simmered in a creamy spiced gravy in a traditional clay pot.", "hi": "पारंपरिक हांडी में मसालेदार मलाईदार ग्रेवी में पकाया गया चिकन।" },
@@ -314,7 +314,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Do Pizza (4 Pieces)", "hi": "चिकन डू पिज़्ज़ा (4 पीस)" },
-  "price": { "full": 350, "half": 200 },
+  "price": "350/200",
   "image": "",
   "description": "Chicken curry with a rich, creamy pizza-style masala gravy.",
   "about": { "en": "Juicy chicken cooked in a special tandoori pizza-inspired sauce.", "hi": "विशेष तंदूरी पिज़्ज़ा-प्रेरित सॉस में पकाया गया रसदार चिकन।" },
@@ -323,7 +323,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Maharaja (6 Pieces)", "hi": "चिकन महाराजा (6 पीस)" },
-  "price": { "full": 380, "half": 230 },
+  "price": "380/230",
   "image": "",
   "description": "Royal chicken curry with rich and creamy gravy.",
   "about": { "en": "Soft chicken cooked with a blend of spices and cream for a royal taste.", "hi": "मसाले और क्रीम के मिश्रण में पकाया गया मुलायम चिकन।" },
@@ -332,7 +332,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Dehati (16/8 Pieces)", "hi": "चिकन देहाती (16/8 पीस)" },
-  "price": { "full": 600, "half": 320 },
+  "price": "600/320",
   "image": "",
   "description": "Rustic country-style chicken curry with authentic spices.",
   "about": { "en": "Traditional desi chicken cooked in rich aromatic spices.", "hi": "मसालेदार देसी चिकन पारंपरिक तरीके से पकाया गया।" },
@@ -341,7 +341,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Jharkhandi (16/8 Pieces)", "hi": "चिकन झारखंडी (16/8 पीस)" },
-  "price": { "full": 600, "half": 320 },
+  "price": "600/320",
   "image": "",
   "description": "Spicy and flavorful chicken curry in authentic Jharkhandi style.",
   "about": { "en": "Chicken cooked with traditional spices for a rich regional flavor.", "hi": "परंपरागत मसालों में पकाया गया झारखंडी स्वादिष्ट चिकन।" },
@@ -368,7 +368,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Batter Masala (4/2 Pieces)", "hi": "चिकन बैटर मसाला (4/2 पीस)" },
-  "price": { "full": 420, "half": 220 },
+  "price": "420/220",
   "image": "",
   "description": "Crispy chicken batter cooked in rich spicy masala gravy.",
   "about": { "en": "Deep fried chicken coated in spiced gravy for a flavorful experience.", "hi": "मसालेदार ग्रेवी में कोटेड डीप फ्राइड चिकन।" },
@@ -377,7 +377,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Dema", "hi": "चिकन डेमा" },
-  "price": { "full": 340, "half": 200 },
+  "price": "340/200",
   "image": "",
   "description": "Spicy chicken curry cooked with authentic Indian spices.",
   "about": { "en": "Tender chicken simmered in rich masala for a delicious taste.", "hi": "मसालेदार स्वादिष्ट ग्रेवी में पकाया गया चिकन।" },
@@ -386,7 +386,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Leg Batter Masala (2 Pieces)", "hi": "चिकन लेग बैटर मसाला (2 पीस)" },
-  "price": { "full": 380, "half": 220 },
+  "price": "380/220",
   "image": "",
   "description": "Crispy chicken leg pieces cooked in rich masala gravy.",
   "about": { "en": "Deep fried chicken legs simmered in flavorful spiced gravy.", "hi": "डीप फ्राइड चिकन लेग मसालेदार ग्रेवी में पकाया गया।" },
@@ -395,7 +395,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Kolhapuri (4 Pieces)", "hi": "चिकन कोल्हापुरी (4 पीस)" },
-  "price": { "full": 340, "half": 210 },
+  "price": "340/210",
   "image": "",
   "description": "Spicy chicken curry with authentic Kolhapuri masala.",
   "about": { "en": "Tender chicken cooked in hot and aromatic Kolhapuri spices.", "hi": "कोल्हापुरी मसालों में पकाया गया मसालेदार चिकन।" },
@@ -404,7 +404,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Korma (4 Pieces)", "hi": "चिकन कोरमा (4 पीस)" },
-  "price": { "full": 330, "half": 210 },
+  "price": "330/210",
   "image": "",
   "description": "Mild and creamy chicken curry with nuts and aromatic spices.",
   "about": { "en": "Tender chicken cooked in a rich korma gravy with cream and nuts.", "hi": "क्रीम और मेवों वाली कोरमा ग्रेवी में पकाया गया चिकन।" },
@@ -413,7 +413,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Punjab (6 Pieces)", "hi": "चिकन पंजाब (6 पीस)" },
-  "price": { "full": 390, "half": 240 },
+  "price": "390/240",
   "image": "",
   "description": "Rich Punjabi-style chicken curry with creamy tomato gravy.",
   "about": { "en": "Juicy chicken pieces cooked with Punjabi spices and creamy tomato base.", "hi": "पंजाबी मसालों और मलाईदार टमाटर बेस में पकाया गया चिकन।" },
@@ -422,7 +422,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Dahiwala (6 Pieces)", "hi": "चिकन दहीवाला (6 पीस)" },
-  "price": { "full": 390, "half": 240 },
+  "price": "390/240",
   "image": "",
   "description": "Chicken curry cooked in yogurt-based gravy with mild spices.",
   "about": { "en": "Tender chicken simmered in a spiced yogurt sauce for creamy texture.", "hi": "मसालेदार दही की ग्रेवी में पकाया गया मुलायम चिकन।" },
@@ -431,7 +431,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Hyderabad (6 Pieces)", "hi": "चिकन हैदराबाद (6 पीस)" },
-  "price": { "full": 440, "half": 250 },
+  "price": "440/250",
   "image": "",
   "description": "Spicy Hyderabadi chicken curry with rich aroma.",
   "about": { "en": "Authentic chicken curry with Hyderabadi spices and herbs.", "hi": "हैदराबादी मसालों और जड़ी-बूटियों से बनी असली चिकन करी।" },
@@ -458,7 +458,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Patiyala (6 Pieces)", "hi": "चिकन पटियाला (6 पीस)" },
-  "price": { "full": 480, "half": 300 },
+  "price": "480/300",
   "image": "",
   "description": "Rich and flavorful Patiyala-style chicken curry.",
   "about": { "en": "Tender chicken cooked with aromatic Indian spices for a royal taste.", "hi": "खुशबूदार भारतीय मसालों में पकाया गया मुलायम चिकन।" },
@@ -467,7 +467,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Bharta", "hi": "चिकन भरता" },
-  "price": { "full": 350, "half": 220 },
+  "price": "350/220",
   "image": "",
   "description": "Spiced chicken curry made with mashed and tender chicken pieces.",
   "about": { "en": "Aromatic chicken bharta cooked with onions and spices.", "hi": "प्याज़ और मसालों के साथ पकाया गया खुशबूदार चिकन भरता।" },
@@ -476,7 +476,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Chicken Kassa (4 Pieces)", "hi": "चिकन कसा (4 पीस)" },
-  "price": { "full": 350, "half": 210 },
+  "price": "350/210",
   "image": "",
   "description": "Spicy and flavorful chicken curry with rich masala.",
   "about": { "en": "Chicken cooked in thick, aromatic kassa gravy.", "hi": "मसालेदार कसा ग्रेवी में पकाया गया चिकन।" },
@@ -512,7 +512,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Egg Kadhi (4 Pieces)", "hi": "अंडा कढ़ी (4 पीस)" },
-  "price": { "full": 200, "half": 130 },
+  "price": "200/130",
   "image": "",
   "description": "Eggs cooked in yogurt-based kadhi gravy with spices.",
   "about": { "en": "Boiled eggs simmered in a tangy spiced yogurt sauce.", "hi": "मसालेदार दही की ग्रेवी में पकाए गए अंडे।" },
@@ -521,7 +521,7 @@
 {
   "type": "Non Veg menu",
   "name": { "en": "Egg Handi (4 Pieces)", "hi": "अंडा हांडी (4 पीस)" },
-  "price": { "full": 210, "half": 140 },
+  "price": "210/140",
   "image": "",
   "description": "Egg curry slow-cooked in rich spicy gravy in a handi.",
   "about": { "en": "Soft eggs cooked in flavorful onion-tomato gravy.", "hi": "मसालेदार प्याज़-टमाटर ग्रेवी में पकाए गए मुलायम अंडे।" },
@@ -542,7 +542,7 @@
 {
   "type": "Non Veg Kabab",
   "name": { "en": "Chicken Tandoori (Full/Half)", "hi": "चिकन तंदूरी (फुल/हाफ)" },
-  "price": { "full": 600, "half": 320 },
+  "price": "600/320",
   "image": "",
   "description": "Whole chicken marinated in spices and slow roasted in a tandoor for a smoky flavor.",
   "about": { "en": "Traditional tandoori chicken cooked with a blend of Indian spices.", "hi": "भारतीय मसालों के मिश्रण के साथ तंदूर में पकाया गया पारंपरिक तंदूरी चिकन।" },
@@ -1506,7 +1506,7 @@
 },
 {
   "type": "Veg Starter",
-  "name": { "en": "Paneer 65", "hi": "पनीर ६५" },
+  "name": { "en": "Paneer 65", "hi": "पनीर 65" },
   "price": 190,
   "image": "",
   "description": "Crispy deep-fried paneer cubes in spicy coating.",
