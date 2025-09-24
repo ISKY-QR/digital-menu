@@ -14,6 +14,11 @@
       "titleHi": "नॉन वेज सूप"
     },
     {
+      "key": "Drinks",
+      "titleEn": "Drinks",
+      "titleHi": "Drinks"
+    },
+    {
       "key": "Noodle bowl",
       "titleEn": "Noodle bowl",
       "titleHi": "नूडल बाउल"
@@ -32,6 +37,11 @@
       "key": "Main Course Veg",
       "titleEn": "Main Course Veg",
       "titleHi": "मेन कोर्स वेज"
+    },
+    {
+      "key": "Main Course Non veg",
+      "titleEn": "Main Course Non veg",
+      "titleHi": "मेन कोर्स नॉन वेज"
     },
     {
       "key": "Roti Naan",
@@ -74,19 +84,9 @@
       "titleHi": "चावल"
     },
     {
-      "key": "Non Veg menu",
-      "titleEn": "Non Veg menu",
-      "titleHi": "नॉन वेज मेनू"
-    },
-    {
       "key": "Non Veg Kabab",
       "titleEn": "Non Veg Kabab",
       "titleHi": "नॉन वेज कबाब"
-    },
-    {
-      "key": "Drinks",
-      "titleEn": "Drinks",
-      "titleHi": "Drinks"
     },
     {
       "key": "Dairy Drinks",
@@ -878,7 +878,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Curry (4 Pieces)",
         "hi": "चिकन करी (4 पीस)"
@@ -908,7 +908,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Masala (4 Pieces)",
         "hi": "चिकन मसाला (4 पीस)"
@@ -938,7 +938,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Kadhi (4 Pieces)",
         "hi": "चिकन कढ़ी (4 पीस)"
@@ -966,7 +966,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Handi (4 Pieces)",
         "hi": "चिकन हांडी (4 पीस)"
@@ -996,7 +996,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Do Pizza (4 Pieces)",
         "hi": "चिकन डू पिज़्ज़ा (4 पीस)"
@@ -1024,7 +1024,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Maharaja (6 Pieces)",
         "hi": "चिकन महाराजा (6 पीस)"
@@ -1054,7 +1054,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Dehati (16/8 Pieces)",
         "hi": "चिकन देहाती (16/8 पीस)"
@@ -1084,7 +1084,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Jharkhandi (16/8 Pieces)",
         "hi": "चिकन झारखंडी (16/8 पीस)"
@@ -1112,7 +1112,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Sultan Masala (6 Pieces)",
         "hi": "चिकन सुलतान मसाला (6 पीस)"
@@ -1142,7 +1142,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Tikka Masala (6 Pieces)",
         "hi": "चिकन टिक्का मसाला (6 पीस)"
@@ -1170,7 +1170,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Batter Masala (4/2 Pieces)",
         "hi": "चिकन बैटर मसाला (4/2 पीस)"
@@ -1198,7 +1198,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Dema",
         "hi": "चिकन डेमा"
@@ -1226,7 +1226,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Leg Batter Masala (2 Pieces)",
         "hi": "चिकन लेग बैटर मसाला (2 पीस)"
@@ -1254,7 +1254,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Kolhapuri (4 Pieces)",
         "hi": "चिकन कोल्हापुरी (4 पीस)"
@@ -1282,7 +1282,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Korma (4 Pieces)",
         "hi": "चिकन कोरमा (4 पीस)"
@@ -1312,7 +1312,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Punjab (6 Pieces)",
         "hi": "चिकन पंजाब (6 पीस)"
@@ -1340,7 +1340,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Dahiwala (6 Pieces)",
         "hi": "चिकन दहीवाला (6 पीस)"
@@ -1368,7 +1368,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Hyderabad (6 Pieces)",
         "hi": "चिकन हैदराबाद (6 पीस)"
@@ -1396,7 +1396,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Afgani Masala (8 Pieces)",
         "hi": "चिकन अफगानी मसाला (8 पीस)"
@@ -1424,7 +1424,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Murga Mussalman",
         "hi": "मुर्गा मुसलमान"
@@ -1454,7 +1454,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Patiyala (6 Pieces)",
         "hi": "चिकन पटियाला (6 पीस)"
@@ -1482,7 +1482,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Bharta",
         "hi": "चिकन भरता"
@@ -1510,7 +1510,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Chicken Kassa (4 Pieces)",
         "hi": "चिकन कसा (4 पीस)"
@@ -1538,7 +1538,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Egg Curry",
         "hi": "अंडा करी"
@@ -1566,7 +1566,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Egg Masala",
         "hi": "अंडा मसाला"
@@ -1594,7 +1594,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Egg Do Pizza",
         "hi": "अंडा डू पिज़्ज़ा"
@@ -1622,7 +1622,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Egg Kadhi (4 Pieces)",
         "hi": "अंडा कढ़ी (4 पीस)"
@@ -1650,7 +1650,7 @@
       }
     },
     {
-      "type": "Non Veg menu",
+      "type": "Main Course Non veg",
       "name": {
         "en": "Egg Handi (4 Pieces)",
         "hi": "अंडा हांडी (4 पीस)"
