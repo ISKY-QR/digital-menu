@@ -14,6 +14,7 @@ const subtitleEl = document.getElementById("subtitle");
 const langToggle = document.getElementById("langToggle");
 const menuContainer = document.getElementById("menu-sections");
 
+// ======= Modal =======
 const modal = document.getElementById("modal");
 const modalImg = document.getElementById("modal-img");
 const modalTitle = document.getElementById("modal-title");
@@ -39,7 +40,7 @@ function safeSetImage(imgEl, src, altText) {
 async function loadRestaurantData() {
   try {
     const params = new URLSearchParams(window.location.search);
-    const restaurant = params.get("restaurant") || "silver-spoon";
+    const restaurant = params.get("restaurant") || "lemon-chilli";
     const res = await fetch(`data/${restaurant}.json`);
     if (!res.ok) throw new Error("Menu file not found");
     restaurantData = await res.json();
@@ -63,14 +64,17 @@ function renderLanding() {
 }
 
 // ======= Menu Sections =======
-function renderMenuSections() {
+function renderMenuSections(filteredItems = null) {
   menuContainer.innerHTML = "";
 
+  const itemsToRender = filteredItems || restaurantData.items;
+
+  // group items by sections
   restaurantData.sections.forEach(section => {
     const sectionKey = section.key;
     const sectionTitle = currentLang === "en" ? section.titleEn : section.titleHi;
 
-    const sectionItems = restaurantData.items.filter(i => i.type === sectionKey);
+    const sectionItems = itemsToRender.filter(i => i.type === sectionKey);
     if (!sectionItems.length) return;
 
     const secDiv = document.createElement("section");
@@ -84,15 +88,12 @@ function renderMenuSections() {
       const li = document.createElement("li");
       li.className = "menu-item";
 
-      // ✅ Proper HTML for CSS layout
       li.innerHTML = `
         <span class="menu-item-name">${item.name[currentLang]}</span>
         <span class="menu-item-price">₹${item.price}</span>
       `;
 
-      // Click opens modal
       li.addEventListener("click", () => showItemDetails(item));
-
       ul.appendChild(li);
     });
 
@@ -105,6 +106,11 @@ function renderMenuSections() {
       secDiv.classList.toggle("active");
     });
   });
+
+  // If filteredItems exist but nothing matched
+  if (filteredItems && filteredItems.length === 0) {
+    menuContainer.innerHTML = `<p style="padding:15px; text-align:center; color:#b78532; font-weight:bold;">Sorry, no items found.</p>`;
+  }
 }
 
 // ======= Item Details Modal =======
@@ -131,6 +137,40 @@ langToggle.addEventListener("click", () => {
 openMenuBtn.addEventListener("click", () => {
   landingPage.style.display = "none";
   menuPage.style.display = "block";
+});
+
+// ======= Search Functionality =======
+const searchInput = document.createElement("input");
+searchInput.type = "text";
+searchInput.id = "menuSearch";
+searchInput.placeholder = "Search menu...";
+menuPage.insertBefore(searchInput, menuContainer);
+
+const searchWrapper = document.createElement("div");
+searchWrapper.id = "searchWrapper";
+searchWrapper.appendChild(searchInput);
+menuPage.insertBefore(searchWrapper, menuContainer);
+
+
+searchInput.addEventListener("input", () => {
+  const query = searchInput.value.trim().toLowerCase();
+
+  if (!query) {
+    renderMenuSections(); // reset
+    return;
+  }
+
+  const filtered = restaurantData.items.filter(item => {
+    const nameEn = item.name.en.toLowerCase();
+    const nameHi = item.name.hi.toLowerCase();
+
+    const words = query.split(" ");
+    // check if all words exist in item name
+    return words.every(w => nameEn.includes(w) || nameHi.includes(w));
+
+  });
+
+  renderMenuSections(filtered);
 });
 
 // ======= Init =======
