@@ -24,6 +24,15 @@ const modalClose = modal.querySelector(".close");
 
 const defaultLogo = "images/default-logo.png";
 
+
+fetch("https://splendorous-longma-46a202.netlify.app/.netlify/functions/incrementViews")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("count").textContent = `Views: ${data.views}`;
+  })
+  .catch(err => console.error(err));
+
+
 // ======= Safe image setter =======
 function safeSetImage(imgEl, src, altText) {
   if (!src) {
